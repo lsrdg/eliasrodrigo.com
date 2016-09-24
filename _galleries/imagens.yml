@@ -6,31 +6,31 @@ arts:
   order: "1"
   artist: "Elias Rodrigo"
   title: "Paricacatuba"
-  description: "Foto: Lucas Jatobá"
+  description: "Foto - Lucas Jatobá"
 
 - image: "images/galleries/imagens/vivo-aros02.png"
   order: "4"
   artist: "Elias Rodrigo"
   title: "No ex-igarapé"
-  description: "Foto: Lucas Jatobá."
+  description: "Foto - Lucas Jatobá."
 
 # Row 2
 - image: "images/galleries/imagens/vivo-claves01.png"
   order: "5"
   artist: "Elias Rodrigo"
   title: "Janelas do Paricatuba"
-  description: "Foto: Lucas Jatobá."
+  description: "Foto - Lucas Jatobá."
 
 - image: "images/galleries/imagens/vivo-claves02.png"
   order: "3"
   artist: "Elias Rodrigo"
   title: "Paricatuba istaile"
-  description: "Foto: Lucas Jatobá."
+  description: "Foto - Lucas Jatobá."
 
 # Row 3
 - image: "images/galleries/imagens/vivo-contato01.png"
   order: "2"
   artist: "Elias Rodrigo"
   title: "Contato com o Rio"
-  description: "Foto: Lucas Jatobá."
+  description: "Foto - Lucas Jatobá."
 ---
