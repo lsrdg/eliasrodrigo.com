@@ -1,27 +1,63 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  ...por uma outra realidade malabareável...
-# baseurl: "" # the subpath of your site, e.g. /blog
-url: "//eliasrodrigo.gitlab.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Starving Artist Jekyll Theme
+email: ctarwater@chrisanthropic.com
+author: Chrisanthropic
+
+keywords: jekyll, jekyll theme, portfolio theme, artist theme
+description: Witty description here.
+
+# Only use this if you are serving your site via Github Pages
+github:
+  url: "https://chrisanthropic.github.io/starving-artist-jekyll-theme"
+
+header: images/logo.png
+
+# Formspree contact Form
+contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
+
+
+# Exclude our ruby stuff
+exclude: [.bundle, .vendor, .bin, starving-artist.gemspec, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, starving-artist-jekyll-theme-*.gem]
+
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+
 theme: starving-artist-jekyll-theme
+  
+# Plugins
+gems:
+  - jekyll-feed
+
+feed:
+  path: atom.xml
+  
+# Compress our Css
+#sass:
+#    style: :compressed
+
+include: ['_pages']
+
+permalink: /blog/:year/:title
+
+collections:
+  - galleries
+
+#### SEO Stuff
+# Google Analytics
+google_universal_analytics: 
+google_universal_analytics_cookiedomain: auto
+
+# Facebook Opengraph
+facebook_user:
+facebook_app_id:                                #enter your App ID
+facebook_locale: en_US
+facebook_page:                                  #the URL of your Facebook Page
+facebook_image: images/author.jpg                      #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+
+# Twitter Cards
+twitter_user: 
+twitter_card: true
+twitter_image: images/author.jpg                       #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
