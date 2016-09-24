@@ -1,5 +1,5 @@
 # Site settings
-title: Starving Artist Jekyll Theme
+title: Elias Rodrigo
 email: ctarwater@chrisanthropic.com
 author: Chrisanthropic
 
@@ -7,10 +7,10 @@ keywords: jekyll, jekyll theme, portfolio theme, artist theme
 description: Witty description here.
 
 # Only use this if you are serving your site via Github Pages
-github:
-  url: "https://chrisanthropic.github.io/starving-artist-jekyll-theme"
+#github:
+#  url: "https://chrisanthropic.github.io/starving-artist-jekyll-theme"
 
-header: images/logo.png
+header: images/logo.jpg
 
 # Formspree contact Form
 contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
