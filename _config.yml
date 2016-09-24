@@ -43,7 +43,7 @@ include: ['_pages']
 permalink: /blog/:year/:title
 
 collections:
-  - galleries
+  - imagens
 
 #### SEO Stuff
 # Google Analytics
