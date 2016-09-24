@@ -2,47 +2,35 @@
 name: "imagens"
 arts:
 # Row 1
-- image: "images/galleries/imagens/vivo-aros01.jpg"
+- image: "images/galleries/imagens/vivo-aros01.png"
   order: "1"
   artist: "Elias Rodrigo"
   title: "Paricacatuba"
   description: "Foto: Lucas Jatobá"
 
-- image: "images/galleries/imagens/vivo-aros02.jpg"
+- image: "images/galleries/imagens/vivo-aros02.png"
   order: "4"
   artist: "Elias Rodrigo"
   title: "No ex-igarapé"
   description: "Foto: Lucas Jatobá."
 
 # Row 2
-- image: "images/galleries/imagens/vivo-claves01.jpg"
+- image: "images/galleries/imagens/vivo-claves01.png"
   order: "5"
   artist: "Elias Rodrigo"
   title: "Janelas do Paricatuba"
   description: "Foto: Lucas Jatobá."
 
-- image: "images/galleries/imagens/vivo-claves02.jpg"
+- image: "images/galleries/imagens/vivo-claves02.png"
   order: "3"
   artist: "Elias Rodrigo"
   title: "Paricatuba istaile"
   description: "Foto: Lucas Jatobá."
 
 # Row 3
-- image: "images/galleries/imagens/vivo-contato01.jpg"
+- image: "images/galleries/imagens/vivo-contato01.png"
   order: "2"
   artist: "Elias Rodrigo"
   title: "Contato com o Rio"
   description: "Foto: Lucas Jatobá."
-
-#- image: "images/galleries/covers/Tired.jpg"
-#  order: "7"
-#  title: "Tired"
-#  description: "Original cover art by Genue Revuelta for Tristan J. Tarwater's short story 'Tired'."
-
-# Row 4
-#- image: "images/galleries/covers/TheMaraudersIsland.jpg"
-#  order: "4"
-#  artist: "Mildred Louis"
-#  title: "The Marauders' Island"
-#  description: "Original cover art by Mildred Louis for Tristan J. Tarwater's 'The Marauders' Island' novel."
 ---
