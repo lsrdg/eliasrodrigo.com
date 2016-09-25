@@ -4,7 +4,7 @@ arts:
 # Row 1
 - image: "images/galleries/imagens/aros01.png"
   order: "1"
-  artist: "<a href="http://lucasjatoba.com.br">Lucas Jatoba</a>"
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
   title: "Paricacatuba"
   description: "Elias Rodrigo - aros no leprosário"
 
