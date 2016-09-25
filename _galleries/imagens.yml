@@ -2,11 +2,11 @@
 name: "imagens"
 arts:
 # Row 1
-- image: "images/galleries/imagens/aros01.jpg"
+- image: "images/galleries/imagens/aros01.png"
   order: "1"
-  artist: "Elias Rodrigo"
+  artist: "<a href="http://lucasjatoba.com.br">Lucas Jatoba</a>"
   title: "Paricacatuba"
-  description: "Foto - Lucas Jatobá"
+  description: "Elias Rodrigo - aros no leprosário"
 
 - image: "images/galleries/imagens/aros02.png"
   order: "2"
