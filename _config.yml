@@ -13,7 +13,7 @@ description: Witty description here.
 header: images/logo.jpg
 
 # Formspree contact Form
-contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
+contact_form: "https://formspree.io/eliasrodrigo@protonmail.com"
 
 
 # Exclude our ruby stuff
@@ -43,7 +43,7 @@ include: ['_pages']
 permalink: /blog/:year/:title
 
 collections:
-  - imagens
+  - galleries
 
 #### SEO Stuff
 # Google Analytics
