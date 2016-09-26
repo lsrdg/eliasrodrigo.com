@@ -2,11 +2,11 @@
 name: "photoblog"
 arts:
 # Row 1
-- image: "images/galleries/photoblog/aros01.jpg"
+- image: "images/galleries/photoblog/aros01.png"
   order: "1"
-  artist: "Elias Rodrigo"
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
   title: "Paricacatuba"
-  description: "Foto - Lucas Jatobá"
+  description: "Elias Rodrigo - aros no leprosário"
 
 - image: "images/galleries/photoblog/aros02.png"
   order: "2"
@@ -32,5 +32,7 @@ arts:
   order: "5"
   artist: "Elias Rodrigo"
   title: "Contato com o Rio"
-  description: "Foto - Lucas Jatobá."  
+  description: "Foto - Lucas Jatobá."
+
+  
 ---

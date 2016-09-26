@@ -1,5 +1,5 @@
 ---
 layout: gallery
-title: Pesquisas
+title: Researching
 permalink: "/pesquisas/"
 --- 

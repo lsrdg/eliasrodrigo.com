@@ -1,5 +1,5 @@
 ---
 layout: gallery
-title: photoblog
+title: Photoblog
 permalink: "/photoblog/"
----
+--- 
