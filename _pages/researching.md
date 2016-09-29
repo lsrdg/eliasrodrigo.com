@@ -1,5 +1,7 @@
 ---
 layout: gallery
 title: Researching
-permalink: "/pesquisas/"
+permalink: "/researching/"
+lang: en
+ref: research
 --- 

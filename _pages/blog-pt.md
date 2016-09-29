@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: blog
-permalink: "/blog/"
+permalink: "/blog-pt/"
 sidebar: "recent_posts"
-lang: en
+lang: pt
 ref: blog
 --- 

@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: Photoblog
-permalink: "/photoblog/"
-lang: en
+permalink: "/photoblog-pt/"
+lang: pt
 ref: photoblog
 --- 
