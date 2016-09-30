@@ -1,12 +1,42 @@
-- title: "photoblog"
-  href: "/photoblog/"
+t:
+  en:      
+    - title: "photoblog"
+      href: "/photoblog/"
   
-- title: "blog"
-  href: "/blog/"
+    - title: "blog"
+      href: "/blog/"
 
-- title: "still curious?"
-  subcategories:
-    - subtitle: "about"
-      subhref: "/about/"
-    - subtitle: "contact"
-      subhref: "/contact/"
+    - title: "still curious?"
+      subcategories:
+        - subtitle: "about"
+          subhref: "/about/"
+        - subtitle: "contact"
+          subhref: "/contact/"
+  
+  pt:      
+    - title: "photoblog"
+      href: "/photoblog-pt/"
+  
+    - title: "blog"
+      href: "/blog-pt/"
+
+    - title: "na curiosidade?"
+      subcategories:
+        - subtitle: "sobre"
+          subhref: "/about-pt/"
+        - subtitle: "contato"
+          subhref: "/contact-pt/"
+
+  da:      
+    - title: "photoblog"
+      href: "/photoblog-da/"
+  
+    - title: "blog"
+      href: "/blog-da/"
+
+    - title: "nysgerrig...?"
+      subcategories:
+        - subtitle: "om"
+          subhref: "/about-da/"
+        - subtitle: "kontakt"
+          subhref: "/contact-da/"

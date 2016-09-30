@@ -1,15 +1,15 @@
 ---
 layout: about
-title: Sobre
+title: om
 logo: "images/author.jpg"
-permalink: "/about-pt/"
-lang: pt
+permalink: "/about-da/"
+lang: da
 ref: about
 --- 
-testando 
-testando 
-testando 
-testando 
+test 
+teDANSKDANSKDANSK!!!! FORdo 
+testando Hel
+testando vedEEEEEEEEEEEEEEEEEEEEdedede
 testando 
 testando 
 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.

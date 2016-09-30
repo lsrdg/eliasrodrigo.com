@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: contato
-permalink: "/contato/"
+permalink: "/contact-pt/"
 lang: pt
 ref: contact
 --- 

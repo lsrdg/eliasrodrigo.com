@@ -1,5 +1,5 @@
 <ul class="menu">  
-	{% for nav in site.data.nav %}
+	{% for nav in site.data.nav.t[page.lang] %}
 	  {% if nav.subcategories != null %}
 	    <li class="dropdown">
 	      <a href="#">{{ nav.title }}</a>
