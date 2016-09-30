@@ -1,31 +1,12 @@
-- title: "juggling"
-  href: "/juggling/"
-
 - title: "photoblog"
   href: "/photoblog/"
   
-- title: "researching"
-  subcategories:
-    - subtitle: "clubs"
-      subhref: "/documentation/installation/"
-    - subtitle: "balls"
-      subhref: "/documentation/sidebar/"
-    - subtitle: "contact"
-      subhref: "/documentation/layouts/"
-    - subtitle: "unicycling"
-      subhref: "/documentation/navigation/"
-    - subtitle: "spinning"
-      subhref: "/documentation/social-icons/"
-    - subtitle: "fire"
-      subhref: "/documentation/header-image/"
-    - subtitle: "desassociation"
-      subhref: "/documentation/lightbox/"
-
 - title: "blog"
   href: "/blog/"
 
-- title: "about"
-  href: "/about/"
-  
-- title: "contact"
-  href: "/contact/"
+- title: "still curious?"
+  subcategories:
+    - subtitle: "about"
+      subhref: "/about/"
+    - subtitle: "contact"
+      subhref: "/contact/"
