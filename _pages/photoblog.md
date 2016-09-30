@@ -1,7 +1,7 @@
 ---
 layout: gallery
-title: Photoblog
+title: photoblog
 permalink: "/photoblog/"
 lang: en
 ref: photoblog
---- 
+---
