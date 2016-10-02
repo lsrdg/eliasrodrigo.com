@@ -6,33 +6,33 @@ arts:
   order: "1"
   artist: "Lucas Jatoba - www.lucasjatoba.com.br"
   title: "Paricacatuba"
-  description: "Elias Rodrigo - juggling rings"
+  description: "Elias Rodrigo - ringer"
 
 - image: "images/galleries/photoblog/aros02.png"
   order: "2"
   artist: "Elias Rodrigo"
-  title: "there was a river"
-  description: "Photo by Lucas Jatobá."
+  title: "der var engang en flod..."
+  description: "billet - Lucas Jatobá."
 
 # Row 2
 - image: "images/galleries/photoblog/claves01.png"
   order: "3"
   artist: "Elias Rodrigo"
-  title: "Paricatuba's windows"
-  description: "Photo - Lucas Jatobá."
+  title: "Vinduer fra Paricatuba"
+  description: "Billedet - Lucas Jatobá."
 
 - image: "images/galleries/photoblog/claves02.png"
   order: "4"
   artist: "Elias Rodrigo"
   title: "Paricatuba istaile"
-  description: "Photo - Lucas Jatobá."
+  description: "Billedet af Lucas Jatobá."
 
 # Row 3
 - image: "images/galleries/photoblog/contato01.png"
   order: "5"
   artist: "Elias Rodrigo"
-  title: "River contact"
-  description: "Photo - Lucas Jatobá."
+  title: "Kontakt med flod"
+  description: "Billedet af Lucas Jatobá."
 
   
 ---
