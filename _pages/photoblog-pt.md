@@ -1,7 +1,8 @@
 ---
 layout: gallery
-title: Photoblog
+title: photoblog-pt
 permalink: "/photoblog-pt/"
+sidebar: "language_bar"
 lang: pt
 ref: photoblog
 --- 
