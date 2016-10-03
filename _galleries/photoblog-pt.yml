@@ -2,33 +2,33 @@
 name: "photoblog-pt"
 arts:
 # Row 1
-- image: "images/galleries/photoblog/aros01.png"
+- image: "images/galleries/photoblog-pt/aros01.png"
   order: "1"
   artist: "Lucas Jatoba - www.lucasjatoba.com.br"
   title: "Paricacatuba"
   description: "Elias Rodrigo - aros no leprosário"
 
-- image: "images/galleries/photoblog/aros02.png"
+- image: "images/galleries/photoblog-pt/aros02.png"
   order: "2"
   artist: "Elias Rodrigo"
   title: "No ex-igarapé"
   description: "Foto - Lucas Jatobá."
 
 # Row 2
-- image: "images/galleries/photoblog/claves01.png"
+- image: "images/galleries/photoblog-pt/claves01.png"
   order: "3"
   artist: "Elias Rodrigo"
   title: "Janelas do Paricatuba"
   description: "Foto - Lucas Jatobá."
 
-- image: "images/galleries/photoblog/claves02.png"
+- image: "images/galleries/photoblog-pt/claves02.png"
   order: "4"
   artist: "Elias Rodrigo"
   title: "Paricatuba istaile"
   description: "Foto - Lucas Jatobá."
 
 # Row 3
-- image: "images/galleries/photoblog/contato01.png"
+- image: "images/galleries/photoblog-pt/contato01.png"
   order: "5"
   artist: "Elias Rodrigo"
   title: "Contato com o Rio"
