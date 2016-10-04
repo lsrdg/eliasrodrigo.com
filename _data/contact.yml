@@ -1,0 +1,44 @@
+t:
+  en:
+   - title: "Contact"
+     name: "Name"
+     your-name: "Your name"
+     your-email: "Your e-mail"
+     
+     subject: "Subject"
+     your-subject: "Subject"
+
+     message: "Message"
+     your-message: "Your message"
+
+     send-email: "Send Email"
+
+
+  pt:
+   - title: "Contato"
+     name: "Nome"
+     your-name: "Seu nome"
+     your-email: "Seu e-mail"
+     
+     subject: "Assunto"
+     your-subject: "Assunto"
+
+     message: "Mensagem"
+     your-message: "Sua mensagem"
+
+     send-email: "Enviar e-mail"
+
+
+  da:
+   - title: "Kontakt"
+     name: "Navn"
+     your-name: "Dit navn"
+     your-email: "Din mailadresse"
+     
+     subject: "Emne"
+     your-subject: "Emne"
+
+     message: "Besked"
+     your-message: "Din besked"
+
+     send-email: "Send mail"
