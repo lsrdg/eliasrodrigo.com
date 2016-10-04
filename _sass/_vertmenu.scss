@@ -112,7 +112,7 @@
 	font-size: ($navbar-font-size * .92);
 	text-decoration: none;
 	color: #fefefe;
-	font-weight: 400;
+	font-weight: 450;
 	
 	/* Background & effects */
 	background: $navbar-color;
@@ -126,5 +126,5 @@
 // Change the link color on hover
 .menu .dropdown ul li:hover>a {
 	color: $navbar-hover-color;
-    background: lighten($navbar-color, 10%);
+    background: lighten($navbar-color, 5%);
 }

@@ -55,6 +55,7 @@ ul > .header-nav > a:visited {
     padding: .5rem;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
+    background-color: $content-bgcolor;
 }
 
 .biopic {
@@ -107,7 +108,7 @@ ul > .header-nav > a:visited {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #E0F4DD;
 }
 
 .langs li a {
@@ -118,7 +119,7 @@ ul > .header-nav > a:visited {
 }
 
 .langs li a:hover {
-    background-color: #555;
+    background-color: #1D584F;
     color: white;
 }
 
