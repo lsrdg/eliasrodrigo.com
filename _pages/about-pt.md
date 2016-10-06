@@ -3,7 +3,7 @@ layout: about
 title: Sobre
 logo: "images/author.jpg"
 permalink: "/about-pt/"
-lang: pt
+lang: português
 ref: about
 --- 
 testando 

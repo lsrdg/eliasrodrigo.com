@@ -3,6 +3,6 @@ layout: contact
 title: kontakt
 permalink: "/contact-da/"
 sidebar: "language_bar"
-lang: da
+lang: dansk
 ref: contact
 --- 

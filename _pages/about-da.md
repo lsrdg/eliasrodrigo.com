@@ -3,7 +3,7 @@ layout: about
 title: om
 logo: "images/author.jpg"
 permalink: "/about-da/"
-lang: da
+lang: dansk
 ref: about
 --- 
 test 

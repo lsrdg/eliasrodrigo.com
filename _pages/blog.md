@@ -3,6 +3,6 @@ layout: blog
 title: blog
 permalink: "/blog/"
 sidebar: "recent_posts"
-lang: en
+lang: english
 ref: blog
 --- 

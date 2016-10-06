@@ -3,6 +3,6 @@ layout: gallery
 title: photoblog
 permalink: "/photoblog/"
 sidebar: "language_bar"
-lang: en
+lang: english
 ref: photoblog
 ---

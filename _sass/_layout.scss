@@ -123,10 +123,11 @@ ul > .header-nav > a:visited {
     color: white;
 }
 
-.en:lang(en), .pt:lang(pt), .da:lang(da) {
+.english:lang(english), .português:lang(português), .dansk:lang(dansk) {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: #13002C;
+    text-transform: uppercase;
 }
 
 

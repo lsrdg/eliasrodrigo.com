@@ -1,5 +1,5 @@
 t:
-  en:
+  english:
    - title: "Contact"
      name: "Name"
      your-name: "Your name"
@@ -14,7 +14,7 @@ t:
      send-email: "Send Email"
 
 
-  pt:
+  português:
    - title: "Contato"
      name: "Nome"
      your-name: "Seu nome"
@@ -29,7 +29,7 @@ t:
      send-email: "Enviar e-mail"
 
 
-  da:
+  dansk:
    - title: "Kontakt"
      name: "Navn"
      your-name: "Dit navn"

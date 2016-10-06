@@ -1,5 +1,5 @@
 t:
-  en:      
+  english:      
     - title: "photoblog"
       href: "/photoblog/"
   
@@ -13,7 +13,7 @@ t:
         - subtitle: "contact"
           subhref: "/contact/"
   
-  pt:      
+  português:      
     - title: "photoblog"
       href: "/photoblog-pt/"
   
@@ -27,7 +27,7 @@ t:
         - subtitle: "contato"
           subhref: "/contact-pt/"
 
-  da:      
+  dansk:      
     - title: "photoblog"
       href: "/photoblog-da/"
   
