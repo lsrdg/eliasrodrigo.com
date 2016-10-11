@@ -107,7 +107,8 @@ ul > .header-nav > a:visited {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 99%;
+    text-transform: uppercase; 
     background-color: #E0F4DD;
 }
 
@@ -115,25 +116,30 @@ ul > .header-nav > a:visited {
     display: block;
     color: #000;
     padding: 8px 16px;
-    text-decoration: normal;
-    text-align: center;
+    padding-left: 2px;
+    text-decoration: line-through;
+    text-align: left;
+    font-size: 22px;
 }
 
 .langs li a:hover {
     background-color: #1D584F;
     color: white;
-    font-size: 28px;
+    font-size: 26px;
+    text-decoration: underline;
 }
 
 .langs li a:active {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .en:lang(en), .pt:lang(pt), .da:lang(da) {
     font-size: 25px;
     color: #13002C;
-    text-transform: uppercase; 
     font-weight: bold;
+    background-color: #1D584F;
+    color: white;
+    text-decoration: none;
 }
 
 
