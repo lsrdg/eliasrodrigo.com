@@ -2,7 +2,7 @@
 layout: blog
 title: blog
 permalink: "/blog-da/"
-sidebar: "recent_posts"
+sidebar: "language_bar"
 lang: dansk
 class: da
 ref: blog

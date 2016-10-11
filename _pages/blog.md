@@ -2,7 +2,7 @@
 layout: blog
 title: blog
 permalink: "/blog/"
-sidebar: "recent_posts"
+sidebar: "language_bar"
 lang: english
 class: en
 ref: blog

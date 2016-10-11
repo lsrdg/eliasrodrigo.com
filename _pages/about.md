@@ -3,6 +3,7 @@ layout: about
 title: About
 logo: "images/author.jpg"
 permalink: "/about/"
+sidebar: "language_bar"
 lang: english
 class: en
 ref: about
