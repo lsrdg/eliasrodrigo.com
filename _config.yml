@@ -54,7 +54,3 @@ facebook_locale: en_US
 facebook_page:                                  #the URL of your Facebook Page
 facebook_image: images/author.jpg                      #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
-# Twitter Cards
-twitter_user: 
-twitter_card: true
-twitter_image: images/author.jpg                       #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
