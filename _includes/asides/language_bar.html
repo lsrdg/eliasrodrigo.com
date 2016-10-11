@@ -1,7 +1,7 @@
 <div class="wraptainer langs">  
 
   <ul>
-     {% assign posts=site.posts | where:"ref", page.ref| sort: 'class' %}
+     {% assign posts=site.posts | where:"ref", page.ref| sort: 'lang' %}
      {% for post in posts %}
 	
      <li>
@@ -11,7 +11,7 @@
 
    
    
-     {% assign pages=site.pages | where:"ref", page.ref| sort: 'class' %}
+     {% assign pages=site.pages | where:"ref", page.ref| sort: 'lang' %}
      {% for page in pages %}
      <li>
 	     <a href="{{ page.url }}" class="{{ page.class }}">{{ page.lang }}</a>

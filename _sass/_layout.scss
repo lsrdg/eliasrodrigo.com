@@ -122,13 +122,14 @@ ul > .header-nav > a:visited {
 .langs li a:hover {
     background-color: #1D584F;
     color: white;
+    font-size: 28px;
 }
 
 .langs li a:active {
     font-size: 30px;
 }
 
-.en:lang(en), .pt:lang(pt), .da:lang(da){
+.en:lang(en), .pt:lang(pt), .da:lang(da) {
     font-size: 25px;
     color: #13002C;
     text-transform: uppercase; 
