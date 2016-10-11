@@ -4,6 +4,7 @@ title: Sobre
 logo: "images/author.jpg"
 permalink: "/about-pt/"
 lang: português
+class: pt
 ref: about
 --- 
 testando 

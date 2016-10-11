@@ -4,6 +4,7 @@ title: om
 logo: "images/author.jpg"
 permalink: "/about-da/"
 lang: dansk
+class: da
 ref: about
 --- 
 test 

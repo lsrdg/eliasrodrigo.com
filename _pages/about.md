@@ -4,6 +4,7 @@ title: About
 logo: "images/author.jpg"
 permalink: "/about/"
 lang: english
+class: en
 ref: about
 --- 
 
