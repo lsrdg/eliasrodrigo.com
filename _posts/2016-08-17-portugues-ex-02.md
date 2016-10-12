@@ -1,8 +1,13 @@
 ---
 layout: post
-title: "Sample post with thumbnail"
-date:   2016-08-14 11:29:16 +0200
+title: "Portugues 02"
+date:   2016-08-17 11:29:16 +0200
 
+lang: português
+class: pt
+ref: art02
+
+sidebar: "language_bar"
 keywords: Shamsee, Lone Idiot and Cub, Tristan J. Tarwater, Adrian Ricker
 description: Shamsee Lone Idiot and Cub - page 013
 
@@ -10,7 +15,6 @@ thumbnail: images/posts/thumbs/catmen.jpg
 
 facebook_type: 
 facebook_image: images/posts/catmen.jpg
-
 ---
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 

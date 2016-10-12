@@ -1,8 +1,13 @@
 ---
 layout: post
-title: "Sample post with thumbnail"
-date:   2016-08-17 11:29:16 +0200
+title: "Portugues 01"
+date:   2016-08-16 11:29:16 +0200
 
+lang: português
+class: pt
+ref: art01
+
+sidebar: "language_bar"
 keywords: Shamsee, Lone Idiot and Cub, Tristan J. Tarwater, Adrian Ricker
 description: Shamsee Lone Idiot and Cub - page 013
 
