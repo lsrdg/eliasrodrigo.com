@@ -37,7 +37,7 @@ feed:
 
 include: ['_pages']
 
-permalink: /blog/:year/:title
+permalink: pretty
 
 collections:
   - galleries
