@@ -177,6 +177,10 @@ a.lightbox-prev, a.lightbox-next, a.lightbox-popup-close {
     padding-left: .2em;
 }
 
+.langs ul {
+    background-color: #2F8E7E;
+}
+
 //////////////////////////////
 // Styling for menu / navbar
 /////////////////////////////
@@ -326,6 +330,7 @@ a.lightbox-prev, a.lightbox-next, a.lightbox-popup-close {
         flex: 0 0 100% !important;
         max-width: 100% !important;
     }
+
 } // End of iPad Styles
 
 ////////////////////////
