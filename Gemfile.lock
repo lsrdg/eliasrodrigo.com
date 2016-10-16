@@ -61,10 +61,11 @@ DEPENDENCIES
   image_optim_pack
   jekyll (= 3.3)
   jekyll-feed
+  listen (= 3.0.8)
   mini_magick
   rake
   sass
   starving-artist-jekyll-theme
 
 BUNDLED WITH
-   1.13.2
+   1.13.5
