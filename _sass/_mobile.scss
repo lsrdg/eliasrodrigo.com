@@ -296,13 +296,13 @@ a.lightbox-prev, a.lightbox-next, a.lightbox-popup-close {
 	#nav>.right.primary-nav  {
 	  background-color: lighten($navbar-color, 10%);
 	}
+} //End of Mobile Styles
 
-} //End of Mobile Styles 
-
-//////////////////////////////////////////
+ 
+ //////////////////////////////////////////
 // Styling for netbooks and small laptops
 /////////////////////////////////////////
-@media screen and (max-width: 1024px) {  
+@media screen and (min-width: 40.063em) and (max-width: 1024px) {  
     [class^="icon-"], [class*=" icon-"] {
         padding: 0 1px;
     }
