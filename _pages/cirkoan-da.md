@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: blog
-permalink: "/blog-da/"
+title: Cirkoan 公案
+permalink: "/cirkoan-da/"
 sidebar: "language_bar"
 lang: dansk
 class: da

@@ -2,7 +2,7 @@
   .wrap {
     height: 100vh;
     display: flex;
-    overflow: hidden;
+    overflow: scroll;
     position: relative;
     width: 100%;
     backface-visibility: hidden;
@@ -50,7 +50,7 @@ ul > .header-nav > a:visited {
 // Containers
 .content_container {
     flex: 1;
-    overflow: auto;
+    overflow: scroll;
     height: auto;
     padding: .5rem;
     -webkit-overflow-scrolling: touch;
@@ -109,7 +109,7 @@ ul > .header-nav > a:visited {
     padding: 0;
     width: 99%;
     text-transform: uppercase; 
-    background-color: #E0F4DD;
+    background-color: $sidebar-langs-color;
 }
 
 .langs li a {
@@ -123,7 +123,7 @@ ul > .header-nav > a:visited {
 }
 
 .langs li a:hover {
-    background-color: #1D584F;
+    background-color: $sidebar-lang-color;
     color: white;
     font-size: 26px;
     text-decoration: underline;
@@ -137,7 +137,7 @@ ul > .header-nav > a:visited {
     font-size: 22px;
     color: #13002C;
     font-weight: bold;
-    background-color: #1D584F;
+    background-color: $sidebar-lang-color;
     color: white;
     text-decoration: none;
 }

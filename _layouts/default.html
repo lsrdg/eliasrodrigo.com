@@ -14,7 +14,7 @@ layout: compress
           {{ content }}
       </div>
       {% if page.sidebar != null  %}
-        <aside class="small-12 large-2 columns sidebar page-content recent-posts">
+        <aside class="small-12 columns large-2 sidebar page-content recent-posts">
           {% include {{ page.sidebar | append: '.html' | prepend: '/asides/'}} %}
         </aside>
       {% endif %}

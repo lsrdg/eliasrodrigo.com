@@ -302,7 +302,7 @@ a.lightbox-prev, a.lightbox-next, a.lightbox-popup-close {
  //////////////////////////////////////////
 // Styling for netbooks and small laptops
 /////////////////////////////////////////
-@media screen and (min-width: 40.063em) and (max-width: 1024px) {  
+@media screen and (max-width: 1024px) {  
     [class^="icon-"], [class*=" icon-"] {
         padding: 0 1px;
     }

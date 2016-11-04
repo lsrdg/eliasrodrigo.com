@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: blog
-permalink: "/blog-pt/"
+title: cirkoan 公案
+permalink: "/cirkoan-pt/"
 sidebar: "language_bar"
 lang: português
 class: pt

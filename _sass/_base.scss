@@ -77,7 +77,50 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
+h2 {
+    font-family: 'BinzMedium';
+    font-weight: bold;
+    font-style: normal; 
+    font-size: 70px;
+    color: $headers-color;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px 4px 20px 20px;
+}
 
+h3 {
+    font-size: 55px;
+    font-family: 'BinzMedium';
+    font-weight: bold;
+    font-style: normal; 
+    color: $headers-color;
+    text-align: center;
+    padding-top: 15px;
+}
+h4 {
+    text-align: right;
+    font-size: 45px;
+    font-family: 'BinzMedium';
+    font-weight: bold;
+    font-style: normal; 
+    color: $headers-color;
+    max-width: 100%;
+    padding-top: 5px;
+}
+
+.index-banner {
+    
+    border-radius: 40px 40px 20px 20px;
+}
+
+.index-descrip {
+    font-size: 28px;
+    background-color: $descrip-bkgr;
+    color: $descrip-color;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 30px 10px;
+    margin: 3px 3px 3px 3px;
+}
 
 /**
  * Links
