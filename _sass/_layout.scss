@@ -29,8 +29,9 @@ ul > .header-nav > a {
 }
 
 ul > .header-nav > a:hover {
-    color: $header-link-hover-color 
+    color: $headers-color; 
 }
+
 
 ul > .header-nav > a:visited {
     color: $header-link-color;
@@ -166,12 +167,14 @@ ul > .header-nav > a:visited {
 
 .post-meta {
     font-size: $small-font-size;
-    color: darken($complimentary-color, 35%);
+    color: lighten($complimentary-color, 35%);
     margin-bottom: -1rem;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 34px;
     line-height: 1.2rem;
+    color: $headers-color;
 }
+
