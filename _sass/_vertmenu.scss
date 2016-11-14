@@ -126,5 +126,5 @@
 // Change the link color on hover
 .menu .dropdown ul li:hover>a {
 	color: $navbar-hover-color;
-    background: lighten($navbar-color, 5%);
+    background: lighten($navbar-color, 3%);
 }

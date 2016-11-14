@@ -7,16 +7,16 @@ $content-bgcolor: #1F1F1F;
 $body-font-color: #AAA;
 
 // Links
-$link-color: lighten($primary-color, 50%);
-$link-hover-color: lighten($link-color, 15%);
-$link-visited-color: lighten($link-color, 25%);
+$link-color: lighten($primary-color, 20%);
+$link-hover-color: lighten($link-color, 30%);
+$link-visited-color: lighten($link-color, 15%);
 
 // Text
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size: 1.0em;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
-$descrip-bkgr: #2B2B2B;
+$descrip-bkgr: #181818;
 $descrip-color: #F9F9F9;
 
 // Header Settings
@@ -37,7 +37,7 @@ $sidebar-lang-color: #0E1515;
 
 // Mobile Navbar Settings
 $navbar-height: 0px;
-$navbar-color: lighten($primary-color, 15%);
+$navbar-color: lighten($primary-color, 3%);
 $navbar-text-color: $secondary-color;
 $navbar-hover-color: $complimentary-color;
 $navbar-active-color: lighten($primary-color, 10%);
