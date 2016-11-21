@@ -1,0 +1,9 @@
+<footer>
+
+	<hr class="footerhr">
+	{% for footer in site.data.footer.t[page.lang] %}
+	<p class="footerp"> {{ footer.copy }}</p>
+	{% endfor %}
+	
+
+</footer>
