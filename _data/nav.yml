@@ -3,40 +3,49 @@ t:
     - title: "photoblog"
       href: "/photoblog/"
   
-    - title: "cirkoan 公案"
-      href: "/cirkoan/"
+    - title: "contact"
+      href: "/contact/"
 
-    - title: "still curious?"
-      subcategories:
-        - subtitle: "about"
-          subhref: "/about/"
-        - subtitle: "contact"
-          subhref: "/contact/"
+#    - title: "cirkoan 公案"
+#      href: "/cirkoan/"
+#
+#    - title: "still curious?"
+#      subcategories:
+#        - subtitle: "about"
+#          subhref: "/about/"
+#        - subtitle: "contact"
+#          subhref: "/contact/"
   
   português:      
     - title: "photoblog"
       href: "/photoblog-pt/"
   
-    - title: "cirkoan 公案"
-      href: "/cirkoan-pt/"
+    - title: "contato"
+      href: "/contact-pt/"
 
-    - title: "na curiosidade?"
-      subcategories:
-        - subtitle: "sobre"
-          subhref: "/about-pt/"
-        - subtitle: "contato"
-          subhref: "/contact-pt/"
+#    - title: "cirkoan 公案"
+#      href: "/cirkoan-pt/"
+#
+#    - title: "na curiosidade?"
+#      subcategories:
+#        - subtitle: "sobre"
+#          subhref: "/about-pt/"
+#        - subtitle: "contato"
+#          subhref: "/contact-pt/"
 
   dansk:      
     - title: "photoblog"
       href: "/photoblog-da/"
   
-    - title: "cirkoan 公案"
-      href: "/cirkoan-da/"
-
-    - title: "nysgerrig...?"
-      subcategories:
-        - subtitle: "om"
-          subhref: "/about-da/"
-        - subtitle: "kontakt"
-          subhref: "/contact-da/"
+    - title: "kontakt"
+      href: "/contact-da/"
+          
+#    - title: "cirkoan 公案"
+#      href: "/cirkoan-da/"
+#
+#    - title: "nysgerrig...?"
+#      subcategories:
+#        - subtitle: "om"
+#          subhref: "/about-da/"
+#        - subtitle: "kontakt"
+#          subhref: "/contact-da/"
