@@ -5,33 +5,33 @@ arts:
 - image: "images/galleries/photoblog/aros01.png"
   order: "1"
   artist: "Lucas Jatoba - www.lucasjatoba.com.br"
-  title: "Paricacatuba"
-  description: "Elias Rodrigo - aros no leprosário"
+  title: "Vila do Paricatuba, Amazonas, Terra"
+  description: "Malabarismo com 5 aros"
 
 - image: "images/galleries/photoblog/aros02.png"
   order: "2"
-  artist: "Elias Rodrigo"
-  title: "No ex-igarapé"
-  description: "Foto - Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Manaus, Amazonas, Terra"
+  description: "Malabarismo com 5 aros"
 
 # Row 2
 - image: "images/galleries/photoblog/claves01.png"
   order: "3"
-  artist: "Elias Rodrigo"
-  title: "Janelas do Paricatuba"
-  description: "Foto - Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Vila do Paricatuba, Amazonas, Terra"
+  description: "Manipulação com 3 claves"
 
 - image: "images/galleries/photoblog/claves02.png"
   order: "4"
-  artist: "Elias Rodrigo"
-  title: "Paricatuba istaile"
-  description: "Foto - Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Vila do Paricatuba, Amazonas, Terra"
+  description: "Malabarismo com 4 claves"
 
 # Row 3
 - image: "images/galleries/photoblog/contato01.png"
   order: "5"
-  artist: "Elias Rodrigo"
-  title: "Contato com o Rio"
-  description: "Foto - Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Vila do Paricatuba, Amazonas, Terra"
+  description: "Malabarismo de contato com o Rio Negro"
  
 ---

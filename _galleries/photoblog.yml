@@ -5,34 +5,34 @@ arts:
 - image: "images/galleries/photoblog/aros01.png"
   order: "1"
   artist: "Lucas Jatoba - www.lucasjatoba.com.br"
-  title: "Paricacatuba"
-  description: "Elias Rodrigo - juggling rings"
+  title:  "Paricatuba Village, Amazonas, Earth"
+  description: "5 rings juggling"
 
 - image: "images/galleries/photoblog/aros02.png"
   order: "2"
-  artist: "Elias Rodrigo"
-  title: "there was a river"
-  description: "Photo by Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Manaus, Amazonas, Earth"
+  description: "5 rings juggling"
 
 # Row 2
 - image: "images/galleries/photoblog/claves01.png"
   order: "3"
-  artist: "Elias Rodrigo"
-  title: "Paricatuba's windows"
-  description: "Photo - Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Paricatuba Village, Amazonas, Earth"
+  description: "3 clubs manipulation"
 
 - image: "images/galleries/photoblog/claves02.png"
   order: "4"
-  artist: "Elias Rodrigo"
-  title: "Paricatuba istaile"
-  description: "Photo - Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Paricatuba Village, Amazonas, Earth"
+  description: "4 clubs juggling"
 
 # Row 3
 - image: "images/galleries/photoblog/contato01.png"
   order: "5"
-  artist: "Elias Rodrigo"
-  title: "River contact"
-  description: "Photo - Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Paricatuba Village, Amazonas, Earth"
+  description: "Contact juggling by the Negro River"
 
   
 ---

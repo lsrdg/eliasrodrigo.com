@@ -5,34 +5,34 @@ arts:
 - image: "images/galleries/photoblog/aros01.png"
   order: "1"
   artist: "Lucas Jatoba - www.lucasjatoba.com.br"
-  title: "Paricacatuba"
-  description: "Elias Rodrigo - ringer"
+  title: "Paricacatuba landsby, Amazonas, Verden"
+  description: "5 ringer jonglering"
 
 - image: "images/galleries/photoblog/aros02.png"
   order: "2"
-  artist: "Elias Rodrigo"
-  title: "der var engang en flod..."
-  description: "billet - Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Manaus, Amazonas, Verden"
+  description: "5 ringer jonglering"
 
 # Row 2
 - image: "images/galleries/photoblog/claves01.png"
   order: "3"
-  artist: "Elias Rodrigo"
-  title: "Vinduer fra Paricatuba"
-  description: "Billedet - Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Paricatuba landsby, Amazonas, Verden"
+  description: "5 kegler manipulation"
 
 - image: "images/galleries/photoblog/claves02.png"
   order: "4"
-  artist: "Elias Rodrigo"
-  title: "Paricatuba istaile"
-  description: "Billedet af Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Paricatuba landsby, Amazonas, Verden"
+  description: "4 kegler jonglering"
 
 # Row 3
 - image: "images/galleries/photoblog/contato01.png"
   order: "5"
-  artist: "Elias Rodrigo"
-  title: "Kontakt med flod"
-  description: "Billedet af Lucas Jatobá."
+  artist: "Lucas Jatoba - www.lucasjatoba.com.br"
+  title: "Paricatuba landsby, Amazonas Verden"
+  description: "Kontakt jonglering ved Negro floden"
 
   
 ---
