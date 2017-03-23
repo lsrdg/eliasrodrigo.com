@@ -2,6 +2,7 @@
 layout: post
 title: "Juggled acts"
 date:   2016-11-28 13:29:16 +0200
+categories: cirkoan
 
 lang: english
 class: en
