@@ -3,11 +3,14 @@ t:
     - title: "photoblog"
       href: "/photoblog/"
   
+    - title: "cirkoan 公案"
+      href: "/cirkoan/"
+
+    - title: "researching"
+      href: "/researching/"
+
     - title: "contact"
       href: "/contact/"
-
-#    - title: "cirkoan 公案"
-#      href: "/cirkoan/"
 #
 #    - title: "still curious?"
 #      subcategories:
