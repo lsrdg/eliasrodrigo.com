@@ -5,13 +5,18 @@ sidebar: "language_bar"
 <article class="small-12 columns">
 
     <header class="columns wraptainer">
-      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
       <h1 class="post-title">{{ page.title }}</h1>
     </header>
     <div class="columns">
       <div class="page-content">
         {{ content }}
       </div>
+      {% if page.next_in_category != nil %}
+	    <a href="{{page.next_in_category.url}}" class="next-link">next</a>
+	{% endif %}
+	{% if page.previous_in_category != nil %}
+	    <a href="{{page.previous_in_category.url}}" class="previous-link">previous</a>
+	{% endif %}
     </div>
 </article>
 
