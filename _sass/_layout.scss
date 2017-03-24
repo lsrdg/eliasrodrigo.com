@@ -159,7 +159,9 @@ ul > .header-nav > a:visited {
 // Posts
 
 .post-title {
-    font-size: 2em;
+    font-family: 'BinzMedium';
+    font-size: 4em;
+    font-style: bold;
     letter-spacing: -1px;
     line-height: 1;
 }
@@ -179,8 +181,9 @@ ul > .header-nav > a:visited {
 
 .post-meta {
     font-size: $small-font-size;
+    font-style: italic;
     color: lighten($complimentary-color, 35%);
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
 }
 
 .post-link {
@@ -193,4 +196,19 @@ ul > .header-nav > a:visited {
 .footerp {
     text-align: center;
     padding: 20px;
+}
+
+.previous-link {
+    text-align: left;
+    font-family: 'BinzMedium';
+    font-style: bold;
+    font-size: 45px;
+}
+
+.next-link {
+    text-align: right;
+    font-family: 'BinzMedium';
+    font-style: bold;
+    font-size: 45px;
+    float: right;
 }
