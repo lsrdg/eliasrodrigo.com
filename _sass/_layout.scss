@@ -182,6 +182,7 @@ ul > .header-nav > a:visited {
 .post-meta {
     font-size: $small-font-size;
     font-style: italic;
+    text-align: right;
     color: lighten($complimentary-color, 35%);
     margin-bottom: 1rem;
 }
@@ -211,4 +212,16 @@ ul > .header-nav > a:visited {
     font-style: bold;
     font-size: 45px;
     float: right;
+}
+
+.post-hr {
+    width: 30%;
+    margin-left: 70%;
+    margin-bottom: 20px;
+}
+
+.link-np-hr {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
 }
