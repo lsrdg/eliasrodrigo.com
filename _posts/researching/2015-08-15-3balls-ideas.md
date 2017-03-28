@@ -16,4 +16,10 @@ description: Beyond the act concept
 
 {% youtube "https://www.youtube.com/watch?v=bKd596ucPeA" %}
 
-...just some simple ideas.
+...just some simple ideas, that actually got used later on.
+
+#### 10/2015
+
+Some foot tricks:
+
+{% youtube "https://www.youtube.com/watch?v=DLZk6gR_lKc %}
