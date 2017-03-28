@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "3 balls ideas"
