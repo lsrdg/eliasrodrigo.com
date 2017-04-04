@@ -25,7 +25,7 @@ kramdown:
 theme: starving-artist-jekyll-theme
   
 # Plugins
-gems: [ 'jekyll-feed', 'jekyll-youtube']
+gems: [ 'jekyll-feed', 'jekyll-youtube', 'jekyll-paginate-v2' ]
 
 feed:
   path: atom.xml
@@ -53,3 +53,12 @@ facebook_locale: en_US
 facebook_page:                                  #the URL of your Facebook Page
 facebook_image: images/author.jpg                      #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
+# Jekyll-paginate-v2
+pagination:
+  enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
