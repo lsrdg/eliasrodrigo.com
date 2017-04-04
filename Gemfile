@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem 'jekyll', '3.4.3'                    #Needed since this is a theme for Jekyll
 gem 'jekyll-feed'
 gem 'jekyll-youtube'
+gem 'jekyll-paginate-v2'
 gem 'rake'                      #Used to simplify building/deploying tasks
 gem 'mini_magick'               #Used by a raketask to compress/optimize images at build time
 gem 'sass', '3.4.23'                      
