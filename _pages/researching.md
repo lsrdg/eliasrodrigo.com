@@ -2,7 +2,6 @@
 layout: page
 title: Researching
 permalink: "/researching/"
-sidebar: "language_bar"
 lang: english
 class: en
 ref: researching
