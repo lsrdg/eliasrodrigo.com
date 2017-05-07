@@ -8,6 +8,7 @@ ref: researching
 pagination:
   enabled: true
   category: researching
+  sort_reverse: true
 --- 
 
 ## Juggling researches
