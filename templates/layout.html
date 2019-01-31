@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Your site description." />
+    <title>{% block title %}{{ this.title }}{% endblock %}</title>
+
+    <link href="{{ '/static/responsive.min.css'|url }}" rel="stylesheet" />
+    <link href="{{ '/static/style.css'|url }}" rel="stylesheet" />
+
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gidole-regular" type="text/css"/> 
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css"/> 
+
+    <!-- H2 title -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/tibet" type="text/css"/> 
+
+</head>
+<body>
+
+<div class="container-full">
+  <div class="row">
+    <div class="col-xxs-12">
+
+    {% block body %}{% endblock %}
+      
+    </div> <!-- col-xxs-12 -->
+  </div> <!-- row -->
+</div> <!-- container -->
+ 
+</body>
+</html>

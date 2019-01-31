@@ -1,0 +1,83 @@
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+div.page {
+  background: #f1fbfe;
+}
+
+.banner-img {
+  position: absolute;
+}
+
+.title-div-1 {
+  position: relative;
+  top: 0rem;
+  left: 0.1rem;
+  margin: 0rem 0rem;
+  padding: 0rem 0rem;
+  font-family: "TibetRegular";
+  font-weight: bold;
+  font-style: bold;
+  font-size: 1.3rem;
+  color: #cb9f7a;
+}
+.title-div-1 .title-col-div {
+  position: absolute;
+  margin: 0rem 0.5rem 0rem 0rem;
+}
+.title-div-1 .title-col-div .title-text-1 {
+  background-color: #442e16;
+  margin: 0rem 0.1rem;
+  padding: 0.7rem 0.3rem;
+  border-radius: 0rem 0rem 3rem 3rem;
+  text-align: center;
+}
+
+.title-div-2 {
+  position: relative;
+  top: 7.5rem;
+  left: 0.1rem;
+  margin: 0.1rem 0rem;
+  padding: 0.7rem 0.5rem;
+  font-family: "TibetRegular";
+  font-weight: bold;
+  font-style: bold;
+  font-size: 1.3rem;
+  color: #cb9f7a;
+}
+.title-div-2 .title-col-div {
+  margin: 0rem 0.5rem 0rem 0rem;
+}
+.title-div-2 .title-col-div .title-text-2 {
+  top: 0rem;
+  right: 1rem;
+  background-color: #442e16;
+  margin: 10rem 0.1rem 1rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 3rem 3rem 0rem 0rem;
+  text-align: center;
+}
+
+.contact-form {
+  position: inherit;
+  margin: 5rem 0.3rem;
+}
+
+@media screen and (min-width: 440px) {
+  .title-div-1 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 510px) {
+  .title-div-1 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 620px) {
+  .title-div-1 {
+    font-size: 2.2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
