@@ -4,8 +4,7 @@ Repo to eliasrodrigo.com
 | | |
 |------------|:---------------------------|
 | Host       | [Gitlab](https:gitlab.com) |
-| Built with | [Jekyll](http://jekyllrb.com/) |
-| Theme      | [Starving Artist Jekyll Theme](https://chrisanthropic.github.io/starving-artist-jekyll-theme/) |
+| Built with | [Jekyll](http://getlektor.com/) |
 
 Check the links above for further information on their license.
 
