@@ -3,27 +3,20 @@
 {% block body %}
   
     <div class="row">
-      <div class="col-xxs-12">
+      <div class="col-xxs-12 banner">
         {% set image = this.attachments.images.first() %}
-        <img src="{{ image|url }}" alt="Altalt" class="media banner-img">
-        
-        <div class="container title-div-1 clearfix">
-          <div class="row">
+        <img src="{{ image|url }}" alt="By Peter Jones - lamiavia.net" class="banner-img">
+        <h1 class="title-text-1">{{ this.title }}</h1>
+        <h2 class="title-text-2">{{ this.subtitle }}</h2>
+        <a href="http://lamiavia.net" class="photo-credit"><p>Photo by: Peter Jones</p></a>
+      </div>
+    </div>
 
-            <div class="col-xxs-12 title-col-div">
-              <p class="title-text-1">{{ this.title }}</p>
-            </div> <!-- col-xxs-12 -->
-          </div> <!-- row -->
-        </div> <!-- container -->
-
-        <div class="container title-div-2 clearfix">
-          <div class="row">
-            <div class="col-xxs-12 title-col-div">
-              <p class="title-text-2">{{ this.subtitle }}</p>
-            </div> <!-- col-xxs-12 -->
-          </div> <!-- row -->
-        </div> <!-- container -->
-        
+    <div class="row vid-div">
+      <div class="col-xxs-12">
+        <div class="media">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/unvpgihb5Ko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
 
@@ -32,7 +25,13 @@
       <div class="col-xxs-12">
 
         <form action="https://formspree.io/info@eliasrodrigo.com" method="POST">
-          <input type="text" name="name"> <input type="email" name="_replyto">
+          <label for="name">Name</label>
+          <input type="text" name="name"> 
+          <label for="email">E-mail</label>
+          <input type="email" name="_replyto">
+          <label for="message">Message</label>
+          <textarea name="message" placeholder="Your Message" required=""></textarea>
+
           <input type="submit" value="Send">
         </form> 
       
