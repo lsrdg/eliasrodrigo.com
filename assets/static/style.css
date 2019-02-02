@@ -13,11 +13,11 @@ body {
 .title-text-1 {
   position: absolute;
   top: 0rem;
-  left: 3.9rem;
+  left: 0rem;
   margin: 0rem 0rem;
-  padding: 0.2rem 0.5rem;
+  padding: 0.9rem 0.9rem;
   background-color: #442e16;
-  border-radius: 0px 0px 30px 30px;
+  border-radius: 0px 0px 30px 0px;
   font-family: "TibetRegular";
   font-weight: bold;
   font-style: bold;
@@ -29,12 +29,12 @@ body {
 .title-text-2 {
   position: absolute;
   bottom: 0rem;
-  left: 5.1rem;
+  left: 0rem;
   margin: 0rem 0rem;
-  padding: 0.3rem 0.5rem;
+  padding: 0.9rem 0.9rem;
   background-color: #442e16;
   text-align: center;
-  border-radius: 30px 30px 2px 2px;
+  border-radius: 0px 30px 0px 0px;
   font-family: "TibetRegular";
   font-weight: bold;
   font-style: bold;
@@ -42,11 +42,29 @@ body {
   color: #cb9f7a;
 }
 
-.photo-credit {
+.banner .photo-credit {
   position: absolute;
-  bottom: 0.7rem;
-  right: 1rem;
+  bottom: 0rem;
+  right: 0rem;
+  padding: 0.1rem 0.4rem;
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 0.5rem;
+  font-family: "TibetRegular";
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+.banner a:link, .banner a:visited {
+  color: white;
+  text-decoration: none;
+}
+.banner a:hover, .banner a:active {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #f6eee8;
+  font-size: 0.7rem;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 1rem 1rem;
 }
 
 .vid-div {
@@ -55,7 +73,14 @@ body {
 
 .contact-form {
   margin: 3rem 0.3rem;
+  padding: 1rem 1rem;
   color: #cb9f7a;
+  font-family: "TibetRegular";
+  font-weight: bold;
+  font-style: bold;
+  font-size: 1rem;
+  color: #cb9f7a;
+  text-align: left;
 }
 
 footer {
@@ -74,6 +99,13 @@ footer {
   .title-text-2 {
     font-size: 1.4rem;
   }
+
+  .banner .photo-credit {
+    padding: 0.1rem 0.9rem;
+  }
+  .banner a:link {
+    font-size: 0.7rem;
+  }
 }
 @media screen and (min-width: 510px) {
   .title-text-1 {
@@ -91,6 +123,10 @@ footer {
 
   .title-text-2 {
     font-size: 2rem;
+  }
+
+  .contact-form {
+    padding: 2rem 4rem;
   }
 }
 

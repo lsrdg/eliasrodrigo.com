@@ -4,7 +4,7 @@ Repo to eliasrodrigo.com
 | | |
 |------------|:---------------------------|
 | Host       | [Gitlab](https:gitlab.com) |
-| Built with | [Jekyll](http://getlektor.com/) |
+| Built with | [Lektor](http://getlektor.com/) |
 
 Check the links above for further information on their license.
 
