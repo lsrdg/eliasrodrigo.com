@@ -12,8 +12,8 @@ badd +11 templates/home.html
 badd +10 models/home.ini
 badd +4 content/contents.lr
 badd +1 scss/eliasrodrigo.scss
-badd +50 scss/main.scss
-badd +2 scss/variables.scss
+badd +140 scss/main.scss
+badd +4 scss/variables.scss
 argglobal
 silent! argdel *
 $argadd templates/layout.html
@@ -36,12 +36,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 51 - ((19 * winheight(0) + 18) / 37)
+let s:l = 85 - ((24 * winheight(0) + 18) / 37)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-51
-normal! 013|
+85
+normal! 021|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
