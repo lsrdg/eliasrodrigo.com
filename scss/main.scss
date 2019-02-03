@@ -5,48 +5,62 @@ body {
     background-color: $second-color;
 }
 
-.banner {
+.grid-main-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row: 100%;
+  grid-row-gap: 1rem 0rem;
+  grid-template-columns: 100%;
+  min-width: 100%;
+}
+
+.banner-wrapper {
+  display: flex;
+  align-items: flex-start;
   position: relative;
-  text-align: center;
-}
+  
+  .banner-img {
+    margin: 0rem;
+    padding: 0rem;
+    max-width: 100%;
+  }
 
-.title-text-1 {
-  position: absolute;
-  top: 0rem;
-  left: 0rem;
-  margin: 0rem 0rem;
-  padding: 0.9rem 0.9rem;
+  .title-text-1 {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    margin: 0rem 0rem;
+    padding: 0.9rem 0.9rem;
 
-  background-color: $second-color;
-  border-radius: 0px 0px 30px 0px;
+    background-color: $second-color;
+    border-radius: 0px 0px 30px 0px;
 
-  font-family: 'TibetRegular';
-  font-weight: bold;
-  font-style: bold;
-  font-size: 1.3rem;
-  color: $primary-color;
-  text-align: center;
-}
+    font-family: 'TibetRegular';
+    font-weight: bold;
+    font-style: bold;
+    font-size: 1.3rem;
+    color: $primary-color;
+    text-align: left;
+  }
 
-.title-text-2 {
-  position: absolute;
-  bottom: 0rem;
-  left: 0rem;
-  margin: 0rem 0rem;
-  padding: 0.9rem 0.9rem;
+  .title-text-2 {
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    margin: 0rem 0rem;
+    padding: 0.9rem 0.9rem;
 
-  background-color: $second-color;
-  text-align: center;
+    background-color: $second-color;
+    text-align: left;
 
-  border-radius: 0px 30px 0px 0px;
-  font-family: 'TibetRegular';
-  font-weight: bold;
-  font-style: bold;
-  font-size: 1.3rem;
-  color: $primary-color;
-}
+    border-radius: 0px 30px 0px 0px;
+    font-family: 'TibetRegular';
+    font-weight: bold;
+    font-style: bold;
+    font-size: 1.3rem;
+    color: $primary-color;
+  }
 
-.banner {
   .photo-credit {
     position: absolute;
     bottom: 0rem;
@@ -76,14 +90,23 @@ body {
   }
 }
 
-.vid-div {
-  margin: 2rem 3rem;
+.video-wrapper {
+  max-width: 100%;
+  margin: 2rem auto;
+  
+  .video-iframe {
+    max-width: 100%;
+    min-width: 80%;
+    max-height: 90%;
+    min-height: 15%;
+  }
 }
 
-.contact-form {
-  margin: 3rem 0.3rem;
-  padding: 1rem 1rem;
+form {
+  margin: 3rem auto;
+  padding: 1rem 5rem;
   color: $primary-color;
+
 
   font-family: 'TibetRegular';
   font-weight: bold;
@@ -91,6 +114,20 @@ body {
   font-size: 1rem;
   color: $primary-color;
   text-align: left;
+
+  input, label, textarea {
+    margin: auto;
+    padding: 0.3rem;
+    width: 75%;
+    min-width: 15rem;
+
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */ 
+      -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+        box-sizing: border-box;
+  }
+  textarea {
+    min-height: 10rem;
+  }
 }
 
 footer {
@@ -117,6 +154,12 @@ footer {
       font-size: 0.7rem;
     }
   }
+  
+  form {
+    input, label, textarea {
+      min-width: 18rem;
+    }
+  }
 }
 
 @media screen and (min-width: 510px) {
@@ -125,6 +168,12 @@ footer {
   }
   .title-text-2 {
     font-size: 1.6rem;
+  }
+
+  form {
+    input, label, textarea {
+      min-width: 24rem;
+    }
   }
 }
 
@@ -138,5 +187,24 @@ footer {
 
   .contact-form {
     padding: 2rem 4rem;
+  }
+
+  form {
+    input, label, textarea {
+      max-width: 30rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .title-text-1 {
+    font-size: 4rem;
+  }
+  .title-text-2 {
+    font-size: 3.8rem;
+  }
+
+  .banner-wrapper {
+    margin: 0rem auto;
   }
 }
