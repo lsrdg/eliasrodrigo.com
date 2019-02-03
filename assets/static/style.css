@@ -5,12 +5,26 @@ body {
   background-color: #442e16;
 }
 
-.banner {
-  position: relative;
-  text-align: center;
+.grid-main-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row: 100%;
+  grid-row-gap: 1rem 0rem;
+  grid-template-columns: 100%;
+  min-width: 100%;
 }
 
-.title-text-1 {
+.banner-wrapper {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.banner-wrapper .banner-img {
+  margin: 0rem;
+  padding: 0rem;
+  max-width: 100%;
+}
+.banner-wrapper .title-text-1 {
   position: absolute;
   top: 0rem;
   left: 0rem;
@@ -25,8 +39,7 @@ body {
   color: #cb9f7a;
   text-align: center;
 }
-
-.title-text-2 {
+.banner-wrapper .title-text-2 {
   position: absolute;
   bottom: 0rem;
   left: 0rem;
@@ -41,8 +54,7 @@ body {
   font-size: 1.3rem;
   color: #cb9f7a;
 }
-
-.banner .photo-credit {
+.banner-wrapper .photo-credit {
   position: absolute;
   bottom: 0rem;
   right: 0rem;
@@ -54,11 +66,11 @@ body {
   font-style: normal;
   text-align: center;
 }
-.banner a:link, .banner a:visited {
+.banner-wrapper a:link, .banner-wrapper a:visited {
   color: white;
   text-decoration: none;
 }
-.banner a:hover, .banner a:active {
+.banner-wrapper a:hover, .banner-wrapper a:active {
   background-color: rgba(0, 0, 0, 0.9);
   color: #f6eee8;
   font-size: 0.7rem;
@@ -67,11 +79,17 @@ body {
   padding: 1rem 1rem;
 }
 
-.vid-div {
-  margin: 2rem 3rem;
+.video-wrapper {
+  max-width: 100%;
+  margin: 1rem 0.3rem;
+  padding: 0rem;
+}
+.video-wrapper .video-iframe {
+  max-width: 100%;
+  min-height: 15%;
 }
 
-.contact-form {
+form {
   margin: 3rem 0.3rem;
   padding: 1rem 1rem;
   color: #cb9f7a;
@@ -81,6 +99,10 @@ body {
   font-size: 1rem;
   color: #cb9f7a;
   text-align: left;
+}
+form input, form label, form textarea {
+  margin: 0.5rem;
+  padding: 0.3rem;
 }
 
 footer {

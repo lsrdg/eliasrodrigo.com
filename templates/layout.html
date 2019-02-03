@@ -7,7 +7,6 @@
     <meta name="description" content="Your site description." />
     <title>{% block title %}{{ this.title }}{% endblock %}</title>
 
-    <link href="{{ '/static/responsive.min.css'|url }}" rel="stylesheet" />
     <link href="{{ '/static/style.css'|url }}" rel="stylesheet" />
 
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gidole-regular" type="text/css"/> 
@@ -19,25 +18,16 @@
 </head>
 <body>
 
-<div class="container-full">
-  <div class="row">
-    <div class="col-xxs-12">
+<div class="grid-main-wrapper">
 
     {% block body %}{% endblock %}
       
-    </div> <!-- col-xxs-12 -->
-  </div> <!-- row -->
-
-<div class="row">
-  <div class="col-xxs-12">
     <footer>
       <p>
       +45 5280 3639<br>info@eliasrodrigo.com<br>2019.
 
      </p> 
     </footer>
-  </div>
-</div>
 </div> <!-- container -->
 
   <script> function init() {

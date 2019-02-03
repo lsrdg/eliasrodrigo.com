@@ -5,48 +5,62 @@ body {
     background-color: $second-color;
 }
 
-.banner {
+.grid-main-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row: 100%;
+  grid-row-gap: 1rem 0rem;
+  grid-template-columns: 100%;
+  min-width: 100%;
+}
+
+.banner-wrapper {
+  display: flex;
+  align-items: flex-start;
   position: relative;
-  text-align: center;
-}
+  
+  .banner-img {
+    margin: 0rem;
+    padding: 0rem;
+    max-width: 100%;
+  }
 
-.title-text-1 {
-  position: absolute;
-  top: 0rem;
-  left: 0rem;
-  margin: 0rem 0rem;
-  padding: 0.9rem 0.9rem;
+  .title-text-1 {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    margin: 0rem 0rem;
+    padding: 0.9rem 0.9rem;
 
-  background-color: $second-color;
-  border-radius: 0px 0px 30px 0px;
+    background-color: $second-color;
+    border-radius: 0px 0px 30px 0px;
 
-  font-family: 'TibetRegular';
-  font-weight: bold;
-  font-style: bold;
-  font-size: 1.3rem;
-  color: $primary-color;
-  text-align: center;
-}
+    font-family: 'TibetRegular';
+    font-weight: bold;
+    font-style: bold;
+    font-size: 1.3rem;
+    color: $primary-color;
+    text-align: center;
+  }
 
-.title-text-2 {
-  position: absolute;
-  bottom: 0rem;
-  left: 0rem;
-  margin: 0rem 0rem;
-  padding: 0.9rem 0.9rem;
+  .title-text-2 {
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    margin: 0rem 0rem;
+    padding: 0.9rem 0.9rem;
 
-  background-color: $second-color;
-  text-align: center;
+    background-color: $second-color;
+    text-align: center;
 
-  border-radius: 0px 30px 0px 0px;
-  font-family: 'TibetRegular';
-  font-weight: bold;
-  font-style: bold;
-  font-size: 1.3rem;
-  color: $primary-color;
-}
+    border-radius: 0px 30px 0px 0px;
+    font-family: 'TibetRegular';
+    font-weight: bold;
+    font-style: bold;
+    font-size: 1.3rem;
+    color: $primary-color;
+  }
 
-.banner {
   .photo-credit {
     position: absolute;
     bottom: 0rem;
@@ -76,14 +90,22 @@ body {
   }
 }
 
-.vid-div {
-  margin: 2rem 3rem;
+.video-wrapper {
+  max-width: 100%;
+  margin: 1rem 0.3rem;
+  padding: 0rem;
+  
+  .video-iframe {
+    max-width: 100%;
+    min-height: 15%;
+  }
 }
 
-.contact-form {
+form {
   margin: 3rem 0.3rem;
   padding: 1rem 1rem;
   color: $primary-color;
+
 
   font-family: 'TibetRegular';
   font-weight: bold;
@@ -91,6 +113,12 @@ body {
   font-size: 1rem;
   color: $primary-color;
   text-align: left;
+
+  input, label, textarea {
+    margin: 0.5rem;
+    padding: 0.3rem;
+
+  }
 }
 
 footer {
