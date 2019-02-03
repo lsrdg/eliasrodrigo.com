@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Your site description." />
+    <title>Circo Igapó</title>
+
+    <link href="./static/responsive.min.css" rel="stylesheet" />
+    <link href="./static/style.css" rel="stylesheet" />
+
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gidole-regular" type="text/css"/> 
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css"/> 
+
+    <!-- H2 title -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/tibet" type="text/css"/> 
+
+</head>
+<body>
+
+<div class="container-full">
+  <div class="row">
+    <div class="col-xxs-12">
+
+    
+  
+    <div class="row">
+      <div class="col-xxs-12 banner">
+        
+        <img src="./streetshow-circo-igapo.jpg" alt="By Peter Jones - lamiavia.net" class="banner-img">
+        <h1 class="title-text-1">Circo Igapó</h1>
+        <h2 class="title-text-2">Elias Rodrigo</h2>
+        <a href="http://lamiavia.net" class="photo-credit"><p>Photo by: Peter Jones</p></a>
+      </div>
+    </div>
+
+    <div class="row vid-div">
+      <div class="col-xxs-12">
+        <div class="media">
+          <iframe width="560" height="315" src="" data-src="https://www.youtube.com/embed/unvpgihb5Ko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row contact-form">
+      <div class="col-xxs-12">
+
+        <form action="https://formspree.io/info@eliasrodrigo.com" method="POST">
+          <label for="name">Name</label>
+          <input type="text" name="name"> 
+          <label for="email">E-mail</label>
+          <input type="email" name="_replyto">
+          <label for="message">Message</label>
+          <textarea name="message" placeholder="Your Message" required=""></textarea>
+
+          <input type="submit" value="Send">
+        </form> 
+      
+      </div>
+    </div>
+
+      
+    </div> <!-- col-xxs-12 -->
+  </div> <!-- row -->
+
+<div class="row">
+  <div class="col-xxs-12">
+    <footer>
+      <p>
+      +45 5280 3639<br>info@eliasrodrigo.com<br>2019.
+
+     </p> 
+    </footer>
+  </div>
+</div>
+</div> <!-- container -->
+
+  <script> function init() {
+    var vidDefer = document.getElementsByTagName('iframe');
+    for (var i=0; i<vidDefer.length; i++) {
+    if(vidDefer[i].getAttribute('data-src')) {
+    vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+    } } }
+    window.onload = init;
+  </script> 
+ 
+</body>
+
+
+</html>
