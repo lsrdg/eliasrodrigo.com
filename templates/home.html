@@ -3,17 +3,56 @@
 {% block body %}
   
     <div class="banner-wrapper">
-        {% set image = this.attachments.images.first() %}
+        {% set image = this.attachments.images.get('streetshow-fromabove.jpg') %}
         <img src="{{ image|url }}" alt="By Peter Jones - lamiavia.net" class="banner-img">
         <h1 class="title-text-1">{{ this.title }}</h1>
         <h2 class="title-text-2">{{ this.subtitle }}</h2>
         <a href="http://lamiavia.net" class="photo-credit"><p>Photo by: Peter Jones</p></a>
     </div>
 
+    <div class="banner2-wrapper">
+      <h3>Circus Street Shows in Danish, English, Portuguese, Esperanto or Spanish</h3>
+      <a href="#contact">Contact me</a>
+    </div>
+
+    <section id="photos">
+      {% set img1 = this.attachments.images.get('streetshow-unicycle-and-knives.jpg') %}
+      {% set img2 = this.attachments.images.get('streetshow-clubs.jpg') %}
+      {% set img3 = this.attachments.images.get('streetshow-balls.jpg') %}
+      {% set img4 = this.attachments.images.get('streetshow-ballon-circus.jpg') %}
+      {% set img5 = this.attachments.images.get('streetshow-clubs-balancing.jpg') %}
+      {% set img6 = this.attachments.images.get('streetshow-unicycle-volunteers.jpg') %}
+      {% set img7 = this.attachments.images.get('streetshow-ballon-circus2.jpg') %}
+      {% set img8 = this.attachments.images.get('streetshow-clubs-trap.jpg') %}
+      {% set img9 = this.attachments.images.get('streetshow-unicycle-and-crowd.jpg') %}
+      {% set img10 = this.attachments.images.get('streetshow-unicycle-climbing.jpg') %}
+      {% set img11 = this.attachments.images.get('streetshow-unicycle-climbing2.jpg') %}
+      {% set img12 = this.attachments.images.get('streetshow-unicycle-climbing3.jpg') %}
+      <img loading="lazy" class="banner2-img" src="{{ img1|url }}" alt="Streetshow: unicycle and knives. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img2|url }}" alt="Streetshow: juggling with clubs. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img3|url }}" alt="Streetshow: juggling with balls. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img4|url }}" alt="Streetshow: circus with ballons, knives and ball. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img5|url }}" alt="Streetshow: club balance. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img6|url }}" alt="Streetshow: unicycle and volunteers. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img7|url }}" alt="Streetshow: circus with ballons, knives and ball2. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img8|url }}" alt="Streetshow: juggling clubs - trap. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img9|url }}" alt="Streetshow: unicycle and crowd. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img10|url }}" alt="Streetshow: unicycle climbing 1. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img11|url }}" alt="Streetshow: unicycle climbing 2. By Peter Jones - lamiavia.net">
+      <img loading="lazy" class="banner2-img" src="{{ img12|url }}" alt="Streetshow: unicycle climbing 3. By Peter Jones - lamiavia.net">
+    </section>
+
+
+    <section id="photos">
+    </section>
+
     <div class="video-wrapper">
         <iframe class="video-iframe" width="560" height="315" src="" data-src="https://www.youtube.com/embed/unvpgihb5Ko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+    <section id="contact">
+   
+      <p>Give me a call at +45 5280 3639, or either fill the form below or send me an e-mail at info@eliasrodrigo.com</p>
 
       <form action="https://formspree.io/info@eliasrodrigo.com" method="POST">
         <label for="name">Name</label>
@@ -31,4 +70,5 @@
         <input type="submit" value="Send">
       </form>
       
+    </section>
 {% endblock %}
