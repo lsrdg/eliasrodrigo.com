@@ -114,6 +114,9 @@ body {
   min-height: 80%;
 }
 
+section#contact {
+  display: grid;
+}
 section#contact p {
   margin: 3rem auto;
   padding: 1rem 5rem;
