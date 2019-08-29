@@ -33,11 +33,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 264 - ((7 * winheight(0) + 18) / 37)
+let s:l = 278 - ((30 * winheight(0) + 18) / 37)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-264
+278
 normal! 025|
 lcd ~/git/eliasrodrigo.gitlab.io
 tabnext 1
