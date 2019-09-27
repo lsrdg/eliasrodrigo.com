@@ -7,14 +7,13 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 eliasrodrigo.lektorproject
-badd +17 templates/home.html
+badd +21 templates/home.html
 badd +1 scss
-badd +129 scss/main.scss
+badd +14 scss/main.scss
 argglobal
-silent! argdel *
+%argdel
 $argadd eliasrodrigo.lektorproject
-edit scss/main.scss
+edit templates/home.html
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -33,13 +32,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 278 - ((30 * winheight(0) + 18) / 37)
+let s:l = 58 - ((17 * winheight(0) + 18) / 37)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-278
-normal! 025|
-lcd ~/git/eliasrodrigo.gitlab.io
+58
+normal! 017|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
