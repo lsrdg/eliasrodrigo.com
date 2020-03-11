@@ -1,5 +1,4 @@
 backend:
-  name: git-gateway
   repo: eliasrodrigo/eliasrodrigo.gitlab.io
   branch: master
 
