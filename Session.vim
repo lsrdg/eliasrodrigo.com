@@ -7,9 +7,10 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +21 templates/home.html
+badd +1 templates/home.html
 badd +1 scss
-badd +14 scss/main.scss
+badd +137 scss/main.scss
+badd +3 templates/layout.html
 argglobal
 %argdel
 $argadd eliasrodrigo.lektorproject
@@ -32,12 +33,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 58 - ((17 * winheight(0) + 18) / 37)
+let s:l = 20 - ((6 * winheight(0) + 18) / 37)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-58
-normal! 017|
+20
+normal! 03|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
