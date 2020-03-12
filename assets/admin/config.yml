@@ -2,6 +2,7 @@ backend:
   name: gitlab
   repo: eliasrodrigo/eliasrodrigo.gitlab.io
   branch: master
+  app_id: 2b2a357a4c27d56ebff5299d87c3344621a59a945e8c1982066723ca4f7cdf87
 
 publish_mode: editorial_workflow
 
