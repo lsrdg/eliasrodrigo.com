@@ -12,6 +12,5 @@ collections:
   - name: "home"
     label: "Home"
     folder: "content/"
-    create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
