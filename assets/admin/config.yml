@@ -8,9 +8,9 @@ publish_mode: editorial_workflow
 media_folder: "assets/static/images/uploads"
 
 collections:
-  name: "home"
-  label: "Home"
-  folder: "content/"
-  create: true
-  fields:
-    - {label: "Title", name: "title", widget: "string"}
+  - name: "home"
+    label: "Home"
+    folder: "content/"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
