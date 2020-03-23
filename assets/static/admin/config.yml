@@ -1,10 +1,14 @@
 backend:
   name: gitlab
   repo: eliasrodrigo/eliasrodrigo.gitlab.io
-  branch: master
+  auth_type: implicit
   app_id: 2b2a357a4c27d56ebff5299d87c3344621a59a945e8c1982066723ca4f7cdf87
+  branch: master
 
-publish_mode: editorial_workflow
+media_library:
+  name: uploadcare
+  config:
+    publicKey: demopublickey
 
 media_folder: "assets/static/images/uploads"
 
@@ -14,3 +18,5 @@ collections:
     folder: "content/"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
