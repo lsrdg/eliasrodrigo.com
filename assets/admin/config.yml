@@ -16,6 +16,7 @@ collections:
   - name: "home"
     label: "Home"
     folder: "content/"
+    extension: "lr"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
