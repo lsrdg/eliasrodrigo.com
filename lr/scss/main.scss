@@ -15,9 +15,10 @@ body {
 }
 
 .banner-wrapper {
-  display: flex;
-  align-items: flex-start;
-  position: relative;
+  display: grid;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("{% 'streetshow-fromabove.jpg' %}");
   
   .banner-img {
     margin: 0rem;
