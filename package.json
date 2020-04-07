@@ -1,0 +1,17 @@
+{
+  "name": "elias-rod",
+  "version": "1.0.1",
+  "description": "Juggling profile",
+  "main": "index.js",
+  "author": "lsrdg",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.0.0"
+  }
+}
