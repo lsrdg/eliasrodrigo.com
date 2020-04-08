@@ -1,4 +1,5 @@
 ---
+search: false
 home: true
 heroImage: /streetshow-fromabove.jpg
 heroAlt: streetshow

@@ -89,6 +89,7 @@ export default {
   max-width $homePageWidth
   margin 0px auto
   display block
+  background-color: $allBg
   .hero
     text-align center
     img
