@@ -216,4 +216,19 @@ export default {
     .theme-default-content
       marging: 1rem 2rem
       padding: 1rem 3.5rem
+
+@media (min-width: 1400px)
+  .home
+    img
+      min-height: 80vh
+    .features
+      margin: 1rem 1.2rem
+    .feature
+      margin: 0.5rem 0.5rem
+      padding: 0.2rem 0.2rem
+      align-content: center
+
+    .theme-default-content
+      marging: 1rem 2rem
+      padding: 1rem 3.5rem
 </style>
