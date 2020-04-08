@@ -149,3 +149,8 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus">
+.theme-container
+  background-color: $allBg
+</style>

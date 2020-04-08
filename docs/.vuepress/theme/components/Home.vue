@@ -87,16 +87,16 @@ export default {
 .home
   padding $navbarHeight 2rem 0
   max-width $homePageWidth
-  margin 0px auto
+  margin 0px 0px
   display block
   background-color: $allBg
   .hero
     text-align center
     img
-      max-width: 100%
+      min-width: 100vw
       max-height 280px
       display block
-      margin 3rem auto 1.5rem
+      margin 0rem auto 0rem
     h1
       font-size 3rem
     h1, .description, .action
@@ -151,16 +151,16 @@ export default {
       flex-direction column
     .feature
       max-width 100%
-      padding 0 2.5rem
+      padding 0 0rem
 
 @media (max-width: $MQMobileNarrow)
   .home
-    padding-left 1.5rem
-    padding-right 1.5rem
+    padding-left 0rem
+    padding-right 0rem
     .hero
       img
         max-height 210px
-        margin 2rem auto 1.2rem
+        margin 0rem auto
       h1
         font-size 2rem
       h1, .description, .action
@@ -172,5 +172,13 @@ export default {
         padding 0.6rem 1.2rem
     .feature
       h2
+        text-align: center
         font-size 1.25rem
+      p
+        padding: 0rem 1.5rem
+
+    .theme-default-content
+      marging: 1rem
+      padding: 1rem 1rem
+
 </style>
