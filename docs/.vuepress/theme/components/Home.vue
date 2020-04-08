@@ -147,11 +147,18 @@ export default {
 
 @media (max-width: $MQMobile)
   .home
+    padding: 0rem
+    img
+      min-width: 100vw
     .features
       flex-direction column
+      margin: 1rem
     .feature
       max-width 100%
-      padding 0 0rem
+      padding 0 1.5rem
+    .theme-default-content
+      margin: 1rem
+      padding: 1rem 1rem
 
 @media (max-width: $MQMobileNarrow)
   .home
