@@ -188,4 +188,32 @@ export default {
       marging: 1rem
       padding: 1rem 1rem
 
+@media (min-width: 767px), (min-height: 1000px)
+  .home
+    padding-left 0rem
+    padding-right 0rem
+    
+    .features
+      margin: 1rem 0.2rem
+    .feature
+      margin: 0.5rem 0.5rem
+
+    .theme-default-content
+      marging: 1rem
+      padding: 1rem 1rem
+
+@media (min-width: 1000px), (min-height: 767px)
+  .home
+    img
+      min-height: 70vh
+
+    .features
+      margin: 1rem 1.2rem
+    .feature
+      margin: 0.5rem 0.5rem
+      padding: 0.2rem 0.2rem
+
+    .theme-default-content
+      marging: 1rem 2rem
+      padding: 1rem 3.5rem
 </style>
