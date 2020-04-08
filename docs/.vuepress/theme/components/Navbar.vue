@@ -97,6 +97,7 @@ $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 
 .navbar
+  margin-top 0rem
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
   background-color darken($allBg, 35%)
@@ -108,19 +109,20 @@ $navbar-horizontal-padding = 1.5rem
     margin-right 0.8rem
     vertical-align top
   .site-name
-    font-size 1.3rem
+    font-size 1.5rem
     font-weight 600
     color #cb9f7a
     position relative
   .links
-    padding-left 1.5rem
+    margin 0rem
+    padding 1rem 1.3rem 1rem 1.3rem
     box-sizing border-box
-    background-color white
+    border-radius 0 0 0 3rem
     white-space nowrap
-    font-size 0.9rem
+    font-size 1.5rem
     position absolute
-    right $navbar-horizontal-padding
-    top $navbar-vertical-padding
+    right 0rem
+    top 0rem
     display flex
     .search-box
       flex: 0 0 auto
@@ -138,4 +140,18 @@ $navbar-horizontal-padding = 1.5rem
       overflow hidden
       white-space nowrap
       text-overflow ellipsis
+
+@media (min-width: 767px), (min-height: 1000px)
+  .navbar
+    max-width 100vw
+    min-height 8vh
+    .links
+      background-color lighten($allBg, 5%)
+
+@media (min-width: 1400px)
+  .navbar
+    .site-name
+      font-size 3.5rem
+    .links
+      font-size 2.5rem
 </style>

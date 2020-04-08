@@ -149,7 +149,8 @@ export default {
   .home
     padding: 0rem
     img
-      min-width: 100vw
+      max-width 100vw
+      max-height 100vh
     .features
       flex-direction column
       margin: 1rem
@@ -166,7 +167,8 @@ export default {
     padding-right 0rem
     .hero
       img
-        max-height 210px
+        min-height 65vh
+        max-width 100vw
         margin 0rem auto
       h1
         font-size 2rem
@@ -188,10 +190,14 @@ export default {
       marging: 1rem
       padding: 1rem 1rem
 
-@media (min-width: 767px), (min-height: 1000px)
+@media (min-width: 760px), (min-height: 1000px)
   .home
+    max-width: 100vw
     padding-left 0rem
     padding-right 0rem
+    img
+      max-width: 100vw
+      min-height: 10vh
     
     .features
       margin: 1rem 0.2rem
