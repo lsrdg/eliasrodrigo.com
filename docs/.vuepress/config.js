@@ -18,4 +18,5 @@ module.exports = {
     head: [
       ['link', { rel: "stylesheet", media: "screen", href: "https://fontlibrary.org/face/circus", type: "text/css"}
       ]
+    ]
 }
