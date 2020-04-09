@@ -11,7 +11,8 @@ module.exports = {
       nav: [
          { text: 'Shows', link: '/shows/'},
          { text: 'Online workshops', link: '/workshops/'},
-         { text: 'webhat', link: '/webhat/'}
+         { text: 'Webhat', link: '/webhat/'},
+         { text: 'Contact', link: '/contact/'}
       ]
     },
     

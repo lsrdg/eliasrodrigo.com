@@ -25,7 +25,7 @@ export default {
 @require '../styles/wrapper.styl'
 
 .page
-  padding-bottom 2rem
+  padding-bottom 0rem
   display block
 
 </style>
