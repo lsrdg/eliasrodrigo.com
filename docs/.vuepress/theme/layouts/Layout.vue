@@ -153,4 +153,8 @@ export default {
 <style lang="stylus">
 .theme-container
   background-color: $allBg
+  h1, h2, h3, h4, h5, h6
+    font-family: 'Libertinagec';
+    font-weight: normal;
+    font-style: normal;
 </style>

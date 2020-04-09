@@ -105,7 +105,7 @@ export default {
       max-width 35rem
       font-size 1.6rem
       line-height 1.3
-      color lighten($textColor, 40%)
+      color lighten($textColor, 5%)
     .action-button
       display inline-block
       font-size 1.2rem
@@ -136,9 +136,9 @@ export default {
       font-weight 500
       border-bottom none
       padding-bottom 0
-      color lighten($textColor, 10%)
+      color lighten($textColor, 5%)
     p
-      color lighten($textColor, 25%)
+      color lighten($textColor, 5%)
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor

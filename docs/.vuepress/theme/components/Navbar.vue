@@ -100,7 +100,7 @@ $navbar-horizontal-padding = 1.5rem
   margin-top 0rem
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
-  background-color darken($allBg, 35%)
+  background-color darken($allBg, 5%)
   a, span, img
     display inline-block
   .logo
@@ -111,7 +111,9 @@ $navbar-horizontal-padding = 1.5rem
   .site-name
     font-size 1.5rem
     font-weight 600
-    color #cb9f7a
+    font-family: 'Libertinagec';
+    font-style: normal; 
+    color $accentColor
     position relative
   .links
     margin 0rem
@@ -120,6 +122,9 @@ $navbar-horizontal-padding = 1.5rem
     border-radius 0 0 0 3rem
     white-space nowrap
     font-size 1.5rem
+    font-weight 600
+    font-family: 'Libertinagec';
+    font-style: normal; 
     position absolute
     right 0rem
     top 0rem

@@ -13,5 +13,9 @@ module.exports = {
          { text: 'Online workshops', link: '/workshops/'},
          { text: 'webhat', link: '/webhat/'}
       ]
-    }
+    },
+    
+    head: [
+      ['link', { rel: "stylesheet", media: "screen", href: "https://fontlibrary.org/face/circus", type: "text/css"}
+      ]
 }
