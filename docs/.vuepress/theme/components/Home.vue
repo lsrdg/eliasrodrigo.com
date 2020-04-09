@@ -148,6 +148,7 @@ export default {
 @media (max-width: $MQMobile)
   .home
     padding: 0rem
+    max-width 100vw
     img
       max-width 100vw
       max-height 100vh
