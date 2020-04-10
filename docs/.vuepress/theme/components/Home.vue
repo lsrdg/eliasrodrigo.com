@@ -191,7 +191,7 @@ export default {
       marging: 1rem
       padding: 1rem 1rem
 
-@media (min-width: 760px), (min-height: 1000px)
+@media (min-width: $MQTabletNarrowW), (min-height: MQTabletNarrowH)
   .home
     max-width: 100vw
     padding-left 0rem
@@ -209,7 +209,7 @@ export default {
       marging: 1rem
       padding: 1rem 1rem
 
-@media (min-width: 1000px), (min-height: 767px)
+@media (min-width: $MQTabletNarrowH), (min-height: $MQTabletNarrowW)
   .home
     img
       min-height: 70vh
@@ -224,7 +224,7 @@ export default {
       marging: 1rem 2rem
       padding: 1rem 3.5rem
 
-@media (min-width: 1400px)
+@media (min-width: $MQLaptop)
   .home
     img
       min-height: 80vh
