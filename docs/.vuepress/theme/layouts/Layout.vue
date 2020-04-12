@@ -42,7 +42,6 @@
       </template>
     </Page>
 
-    <Form v-if="$page.frontmatter.form" />
 
     <Footer />
   </div>
@@ -55,7 +54,6 @@ import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
 import Footer from '@theme/components/Footer.vue'
-import Form from '@theme/components/Form.vue'
 
 export default {
   name: 'Layout',
@@ -65,8 +63,7 @@ export default {
     Page,
     Sidebar,
     Navbar,
-    Footer,
-    Form
+    Footer
   },
 
   data () {
