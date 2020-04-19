@@ -163,6 +163,8 @@ export default {
     .feature
       max-width 100%
       padding 0 1.5rem
+      p
+        font-size 1rem
     .theme-default-content
       margin: 1rem
       padding: 1rem 1rem
@@ -182,16 +184,17 @@ export default {
       h1, .description, .action
         margin 1.2rem auto
       .description
-        font-size 1.2rem
+        font-size 1.5rem
       .action-button
         font-size 1rem
         padding 0.6rem 1.2rem
     .feature
       h2
         text-align: center
-        font-size 1.25rem
+        font-size 1.45rem
       p
         padding: 0rem 1.5rem
+        font-size 1.1rem
 
     .theme-default-content
       marging: 1rem
@@ -209,6 +212,10 @@ export default {
       margin: 1rem 0.2rem
     .feature
       margin: 0.5rem 0.5rem
+      h2
+        font-size 1.6rem
+      p
+        font-size 1.4rem
 
     .theme-default-content
       marging: 1rem
