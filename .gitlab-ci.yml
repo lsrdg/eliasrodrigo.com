@@ -1,18 +1,17 @@
-image: python:latest
+image: node:latest
 
 pages:
-  before_script:
-  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-  - eval $(ssh-agent -s)
-  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
-  - mkdir -p ~/.ssh
-  - chmod 700 ~/.ssh
-  - cp -r public .ssh/public_html/
+  cache:
+    paths:
+    - node_modules/
+
   script:
-  - pip install lektor
-  - lektor build --output-path public
+  - yarn install
+  - yarn run build
+
   artifacts:
     paths:
     - public
+  
   only:
   - master
