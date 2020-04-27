@@ -246,8 +246,16 @@ export default {
       margin: 0.5rem 0.5rem
       padding: 0.2rem 0.2rem
       align-content: center
+      h2
+        font-size 4rem
+      p
+        font-size 2rem
 
     .theme-default-content
       marging: 1rem 2rem
       padding: 1rem 3.5rem
+    
+  footer
+    p
+      font-size 1.7rem
 </style>
