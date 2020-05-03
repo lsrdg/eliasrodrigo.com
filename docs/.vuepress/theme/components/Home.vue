@@ -97,11 +97,6 @@ export default {
       max-height 280px
       display block
       margin 0rem auto 0rem
-      -webkit-filter: sepia(1)
-      filter: sepia(1)
-    img:hover
-      -webkit-filter: sepia(0)
-      filter: sepia(0)
     h1
       font-size 3rem
     h1, .description, .action
