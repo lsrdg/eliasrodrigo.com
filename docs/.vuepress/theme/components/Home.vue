@@ -171,7 +171,7 @@ export default {
     .hero
       img
         max-height 55vh
-        min-height 45vh
+        min-height 35vh
         max-width 100vw
         margin 0rem auto
       h1
@@ -201,7 +201,8 @@ export default {
     padding-left 0rem
     padding-right 0rem
     img
-      max-width: 100vw
+      max-width 100vw
+      min-height 85vh
     
     .features
       margin: 1rem 0.2rem
@@ -219,7 +220,7 @@ export default {
 @media (min-width: $MQTabletNarrowH), (min-height: $MQTabletNarrowW)
   .home
     img
-      min-height: 40vh
+      min-height: 30vh
 
     .features
       margin: 1rem 1.2rem
@@ -234,7 +235,7 @@ export default {
 @media (min-width: $MQLaptop)
   .home
     img
-      min-height: 80vh
+      min-height: 100vh
     .features
       margin: 1rem 1.2rem
     .feature
