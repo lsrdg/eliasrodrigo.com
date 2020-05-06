@@ -1,7 +1,7 @@
 ---
 search: false
 home: true
-heroImage: /streetshow-fromabove.jpg
+heroImage: /malabares.jpg
 heroAlt: streetshow
 heroText: Circo Igapó
 features:

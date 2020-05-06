@@ -9,6 +9,7 @@
         :src="$withBase(data.heroImage)"
         :alt="data.heroAlt || 'hero'"
       >
+      <div class="text-on-img">By Manuel Gomez</div>
 
       <h1
         v-if="data.heroText !== null"
@@ -94,9 +95,17 @@ export default {
     text-align center
     img
       min-width: 100vw
-      max-height 280px
+      max-height 100vh
       display block
       margin 0rem auto 0rem
+    .text-on-img
+      position absolute
+      top 38vh
+      right 1rem
+      background $color4
+      color $color1
+      padding 0.2rem
+      font-size 0.5rem
     h1
       font-size 3rem
     h1, .description, .action
