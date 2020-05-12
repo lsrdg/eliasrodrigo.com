@@ -12,6 +12,3 @@ features:
 - title: Multilanguage
   details: Shows and workshops in English, Danish, Esperanto, Portuguese, Spanish and in silence as well!
 ---
-
-asdfadf
-mnvxcbzcv
