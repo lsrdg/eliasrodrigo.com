@@ -47,6 +47,9 @@
       >
         <h2>{{ feature.title }}</h2>
         <p>{{ feature.details }}</p>
+        <div v-if="feature.link">
+          <a v-bind:href="feature.link">Read more</a>
+        </div>
       </div>
     </div>
 
