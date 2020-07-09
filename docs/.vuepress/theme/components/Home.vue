@@ -231,6 +231,7 @@ export default {
 
 @media (min-width: $MQTabletNarrowH), (min-height: $MQTabletNarrowW)
   .home
+    margin 0px 0px
     img
       min-height: 30vh
 

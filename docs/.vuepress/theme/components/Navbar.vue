@@ -149,7 +149,7 @@ $navbar-horizontal-padding = 1.5rem
 @media (min-width: 767px), (min-height: 1000px)
   .navbar
     max-width 100vw
-    min-height 8vh
+    min-height $navbarHeight
     .links
       background-color lighten($allBg, 5%)
 
