@@ -91,7 +91,7 @@ export default {
 .home
   padding $navbarHeight 2rem 0
   max-width $homePageWidth
-  margin 0px 0px
+  margin $navbarHeight 0px 
   display block
   background-color: $allBg
   .hero
