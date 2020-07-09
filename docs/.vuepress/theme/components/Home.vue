@@ -110,7 +110,7 @@ export default {
       padding 0.2rem
       font-size 0.5rem
     h1
-      font-size 3rem
+      font-size 1.8rem
     h1, .description, .action
       margin 1.8rem auto
     .description
@@ -187,7 +187,7 @@ export default {
         max-width 100vw
         margin 0rem auto
       h1
-        font-size 2rem
+        font-size 1.8rem
       h1, .description, .action
         margin 1.2rem auto
       .description
@@ -256,9 +256,9 @@ export default {
       padding: 0.2rem 0.2rem
       align-content: center
       h2
-        font-size 4rem
+        font-size 2.5rem
       p
-        font-size 2rem
+        font-size 1.5rem
 
     .theme-default-content
       marging: 1rem 2rem
@@ -266,5 +266,5 @@ export default {
     
   footer
     p
-      font-size 1.7rem
+      font-size 1.4rem
 </style>
