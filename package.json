@@ -7,11 +7,11 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "vuepress dev docs",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "dependencies": {},
   "devDependencies": {
-    "vuepress": "^1.0.0"
+    "vuepress": "^1.5.2"
   }
 }
