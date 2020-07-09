@@ -15,14 +15,14 @@
         v-if="data.heroText !== null"
         id="main-title"
       >
-        {{ data.heroText || $title || 'Hello' }}
+        {{ data.heroText }}
       </h1>
 
       <p
         v-if="data.tagline !== null"
         class="description"
       >
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        {{ data.tagline }}
       </p>
 
       <p
@@ -132,8 +132,8 @@ export default {
         background-color lighten($accentColor, 10%)
   .features
     border-top 1px solid $borderColor
-    padding 1.2rem 0
-    margin-top 2.5rem
+    padding 0.2rem 0
+    margin-top 0.5rem
     display flex
     flex-wrap wrap
     align-items flex-start

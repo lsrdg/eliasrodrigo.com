@@ -3,7 +3,6 @@ search: false
 home: true
 heroImage: /malabares.jpg
 heroAlt: streetshow
-heroText: Circo Igapó
 features:
 - title: Performances
   details: Circus shows for all ages and humors, rooted on the streets.
