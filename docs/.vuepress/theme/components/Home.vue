@@ -15,14 +15,14 @@
         v-if="data.heroText !== null"
         id="main-title"
       >
-        {{ data.heroText || $title || 'Hello' }}
+        {{ data.heroText }}
       </h1>
 
       <p
         v-if="data.tagline !== null"
         class="description"
       >
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        {{ data.tagline }}
       </p>
 
       <p
@@ -110,7 +110,7 @@ export default {
       padding 0.2rem
       font-size 0.5rem
     h1
-      font-size 3rem
+      font-size 1.8rem
     h1, .description, .action
       margin 1.8rem auto
     .description
@@ -132,8 +132,8 @@ export default {
         background-color lighten($accentColor, 10%)
   .features
     border-top 1px solid $borderColor
-    padding 1.2rem 0
-    margin-top 2.5rem
+    padding 0.2rem 0
+    margin-top 0.5rem
     display flex
     flex-wrap wrap
     align-items flex-start
@@ -187,7 +187,7 @@ export default {
         max-width 100vw
         margin 0rem auto
       h1
-        font-size 2rem
+        font-size 1.8rem
       h1, .description, .action
         margin 1.2rem auto
       .description
@@ -231,6 +231,7 @@ export default {
 
 @media (min-width: $MQTabletNarrowH), (min-height: $MQTabletNarrowW)
   .home
+    margin 0px 0px
     img
       min-height: 30vh
 
@@ -255,9 +256,9 @@ export default {
       padding: 0.2rem 0.2rem
       align-content: center
       h2
-        font-size 4rem
+        font-size 2.5rem
       p
-        font-size 2rem
+        font-size 1.5rem
 
     .theme-default-content
       marging: 1rem 2rem
@@ -265,5 +266,5 @@ export default {
     
   footer
     p
-      font-size 1.7rem
+      font-size 1.4rem
 </style>
