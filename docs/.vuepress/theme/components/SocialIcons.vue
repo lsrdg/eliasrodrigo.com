@@ -13,37 +13,41 @@
 
 <style lang="stylus">
 .ig-container
-  max-height 10rem
-  max-width 10rem
+  position relative
+  display block
+  margin auto
+  height 100px
+  width 100px
 
   .ig-1
-    height 100%
-    width 100%
+    height 80%
+    width 80%
     margin auto
-    border-radius 2rem
+    padding-top 8%
+    border-radius 1rem
     background linear-gradient(165deg, #405DE6, #5851D8, #833AB4, #C13584,
     #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80, #FFFFFF)
 
     .ig-2
-      max-height 70%
-      width 70%
+      height 80%
+      width 80%
       margin auto auto
-      border 0.5rem solid white
-      border-radius 2rem
+      border 0.2rem solid white
+      border-radius 1rem
       
       .ig-3
-        height 1.5rem
-        width 1.5rem
+        height 0.5rem
+        width 0.5rem
         background-color white
-        border 0.3rem solid white
+        border 0.1rem solid white
         border-radius 50%
         float right
-        margin 0.5rem
+        margin 0.2rem
 
       .ig-4
-        height 5rem
-        width 5rem
-        border 0.5rem solid white
+        height 2rem
+        width 2rem
+        border 0.2rem solid white
         border-radius 25%
-        margin 2rem auto
+        margin 1rem auto
 </style>

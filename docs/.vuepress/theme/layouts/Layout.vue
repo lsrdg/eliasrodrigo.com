@@ -42,8 +42,6 @@
       </template>
     </Page>
 
-
-    <SocialIcons />
     <Footer />
   </div>
 </template>
@@ -55,7 +53,6 @@ import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
 import Footer from '@theme/components/Footer.vue'
-import SocialIcons from '@theme/components/SocialIcons.vue'
 
 export default {
   name: 'Layout',
@@ -65,8 +62,7 @@ export default {
     Page,
     Sidebar,
     Navbar,
-    Footer,
-    SocialIcons
+    Footer
   },
 
   data () {
