@@ -1,12 +1,14 @@
 <template>
   <div class="ig-container">
 
-    <div class="ig-1">
-      <div class="ig-2">
-        <div class="ig-3"></div>
-        <div class="ig-4"></div>
+    <a href="https://www.instagram.com/juggleliasrod/" target="_blank">
+      <div class="ig-1">
+        <div class="ig-2">
+          <div class="ig-3"></div>
+          <div class="ig-4"></div>
+        </div>
       </div>
-    </div>
+    </a>
 
   </div>
 </template>
@@ -18,6 +20,8 @@
   margin auto
   height 100px
   width 100px
+  &:hover
+    transform scale(1.2)
 
   .ig-1
     height 80%
