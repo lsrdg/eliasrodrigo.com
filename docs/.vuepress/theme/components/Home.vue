@@ -55,6 +55,7 @@
 
     <Content class="theme-default-content custom" />
 
+
     <div
       v-if="data.footer"
       class="footer"
@@ -268,3 +269,4 @@ export default {
     p
       font-size 1.4rem
 </style>
+

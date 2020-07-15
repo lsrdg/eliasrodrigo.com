@@ -1,5 +1,6 @@
 <template>
   <footer>
+    <SocialIcons />
     <p>
     +45 5280 3639 <br>
     info@eliasrod.com <br>
@@ -8,6 +9,17 @@
   </footer>
 </template>
 
+<script>
+import SocialIcons from '@theme/components/SocialIcons.vue'
+
+export default {
+  name: 'Footer',
+
+  components: {
+    SocialIcons
+  }
+}
+</script>
 <style lang="stylus">
 footer
   text-align center
