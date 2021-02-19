@@ -1,5 +1,5 @@
 module.exports = {
-    extend: '@vuepress-theme-default',
+    extend: '@vuepress/theme-default',
 
     title: 'Circo Igapó',
     description: 'Elias Rod',

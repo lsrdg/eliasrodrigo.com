@@ -42,7 +42,6 @@
       </template>
     </Page>
 
-
     <Footer />
   </div>
 </template>

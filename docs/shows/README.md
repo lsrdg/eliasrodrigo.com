@@ -3,7 +3,8 @@ shows: true
 ---
 
 All shows have been canceled because of COVID-19. However, feel free to contact
-if your venue is allowed stay open *and* provide entertainment (drive-in parties etc).
+if your venue is allowed stay open *and* provide entertainment (drive-in parties
+etc).
 
 If you wanna a taste, here it goes:
 

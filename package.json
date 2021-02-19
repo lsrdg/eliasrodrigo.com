@@ -7,12 +7,17 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "vuepress dev docs",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "dependencies": {},
   "devDependencies": {
+<<<<<<< HEAD
     "vuepress": "^1.7.1"
   },
   "repository": "https://gitlab.com/eliasrod/eliasrod.gitlab.io.git"
+=======
+    "vuepress": "^1.5.2"
+  }
+>>>>>>> 2111923fd56198d201b1b531548d2b1cb323562c
 }
