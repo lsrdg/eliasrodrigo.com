@@ -12,6 +12,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "vuepress": "^1.0.0"
-  }
+    "vuepress": "^1.7.1"
+  },
+  "repository": "https://gitlab.com/eliasrod/eliasrod.gitlab.io.git"
 }
