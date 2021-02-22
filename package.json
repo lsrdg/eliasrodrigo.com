@@ -1,19 +1,18 @@
 {
-  "name": "elias-rod",
-  "version": "1.0.1",
-  "description": "Juggling profile",
-  "main": "index.js",
-  "author": "lsrdg",
-  "license": "MIT",
-  "private": false,
+  "name": "eliasrod.gitlab.io",
+  "private": true,
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
   "devDependencies": {
-    "vuepress": "^1.8.2"
-  },
-  "repository": "https://gitlab.com/eliasrod/eliasrod.gitlab.io.git",
-    "vuepress": "^1.8.2"
+    "gridsome-plugin-tailwindcss": "^4.1.1",
+    "postcss-import": "^14.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.0.3"
+  }
 }

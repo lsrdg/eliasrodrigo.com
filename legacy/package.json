@@ -1,0 +1,19 @@
+{
+  "name": "elias-rod",
+  "version": "1.0.1",
+  "description": "Juggling profile",
+  "main": "index.js",
+  "author": "lsrdg",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "repository": "https://gitlab.com/eliasrod/eliasrod.gitlab.io.git",
+    "vuepress": "^1.8.2"
+}

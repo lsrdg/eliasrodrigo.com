@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/bin/node /home/lsrdg/.node_modules/bin/yarn start
+
+PATH: 
+  /home/lsrdg/builds/dart-sass:/home/lsrdg/.rbenv/shims:/home/lsrdg/.rbenv/bin:/home/lsrdg/.node_modules/bin:/home/lsrdg/scripts:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/lsrdg/.rvm/bin:/home/lsrdg/.gem/ruby/2.7.0/bin:/home/lsrdg/.rvm/bin:/usr/local/bin:/home/lsrdg/.rvm/bin:HOME/.local/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  15.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/lsrdg/git/eliasrod.gitlab.io/package.json: Unexpected token } in JSON at position 428
+      at JSON.parse (<anonymous>)
+      at /home/lsrdg/.node_modules/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/lsrdg/.node_modules/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/lsrdg/.node_modules/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "elias-rod",
+    "version": "1.0.1",
+    "description": "Juggling profile",
+    "main": "index.js",
+    "author": "lsrdg",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+      "dev": "vuepress dev docs",
+      "build": "vuepress build docs"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "vuepress": "^1.7.1"
+    },
+    "repository": "https://gitlab.com/eliasrod/eliasrod.gitlab.io.git",
+      "vuepress": "^1.7.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
